@@ -2,7 +2,7 @@
 name: To Do
 about: This is a template for to do items
 title: ''
-labels: ''
+labels: Roadmap
 assignees: ''
 
 ---
