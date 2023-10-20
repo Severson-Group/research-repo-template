@@ -3,7 +3,7 @@ name: To Do
 about: This is a template for to do items
 title: ''
 labels: ''
-assignees: elsevers
+assignees: ''
 
 ---
 
