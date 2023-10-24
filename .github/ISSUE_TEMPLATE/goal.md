@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 # Goal
-_Import text from project statement of work_
+_To do: Import text from project statement of work_
 
 # Task List
-_Provide a check list of what needs to be finish for this goal to be complete_
+_To do: Provide a check list of what needs to be finish for this goal to be complete_
