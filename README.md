@@ -55,11 +55,16 @@ The view is configured as GitHub's `Board` layout and applies the filter `-label
 Project Workflow automation is set up to automatically add each new issue (and PR) to the `Next`status and to move closed issues (and PRs) to the `Done` status. Researchers are expected to manually drag issues across the board to the other categories based on their current progress.
 
 ## 3. Best Practices
-1. Interlink items on GitHub to provide context. Sometimes all that is needed in the `Context` field is a link to another issue
+1. Continually check the Project `Board` and make sure each issue is in the correct status category.
+2. Interlink items on GitHub to provide context. Sometimes all that is needed in the `Context` field is a link to another issue
     - Link PRs to issues
     - Link issues to issues
     - You can even link to items across different repositories within the group account, i.e., `Severson-Group/RepoWithIssue#32`
-2. In a typical research week, try to complete at least one `todo` issue. If you are having trouble doing this, it probably means the issue is too big and needs to be broken up into smaller issues.
-3. Who is responsible for breaking issues up into smaller issues? The researcher it is assigned to! 
-    - Keep the original issue, just modify the approach to be a list of smaller `todo` issues
+    - Tag people when you want to bring them into a discussion, i.e., `@elsevers, what do you think?`
+3. In a typical research week, try to complete at least one `todo` issue. If you are having trouble doing this, it probably means the issue is too big and needs to be broken up into smaller issues.
+4. Who is responsible for breaking issues up into smaller issues? The researcher it is assigned to! 
+    - Keep the original issue, but modify the `Approach` section to be a list of smaller `todo` issues
+5. Aren't sure what to do with an issue? Indicate that in the comments. Get help and revise the issue to make it clear what to do.
+6. Make some exciting progress or encounter set backs with a `todo` issue? Add this info to the comments.
+7. Are you stuck and need help with a `todo` issue? Document your problems in the comments.
   
