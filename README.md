@@ -2,7 +2,7 @@
 This document describes the recommended implementation of using GitHub to manage our group's research projects. 
 
 ## 1. Rationale
-We are using Github to track project progress, items we need to finish and discuss, and to give structure to our meetings. This approach is similar in nature to using Trello with a Kanban board configuration. We use this over Trello because of our success with using GitHub in our code and controls development and to minimize the number of different tools we have going.
+We are using GitHub to track project progress, items we need to finish and discuss, and to give structure to our meetings. This approach is similar in nature to using Trello with a Kanban board configuration. We use this over Trello because of our success with using GitHub in our code and controls development and to minimize the number of different tools we have going.
 
 ## 2. Implementation
 
