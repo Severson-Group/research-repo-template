@@ -55,20 +55,25 @@ The view is configured as GitHub's `Board` layout and applies the filter `-label
 Project Workflow automation is set up to automatically add each new issue (and PR) to the `Next`status and to move closed issues (and PRs) to the `Done` status. Researchers are expected to manually drag issues across the board to the other categories based on their current progress.
 
 ## 3. Best Practices
+### 3.1 Keep Everything Up-to-Date
 1. Graduate researchers should be hands-on and active with the `todo` issues: create, edit, updat, comment, re-organize--make them make sense for you and what you are working on.
-2. Continually update the Project `Board` to make sure each issue is in the correct status category.
-3. Interlink items on GitHub to provide context. Sometimes all that is needed in the `Context` field is a link to another issue
+2. Continually update the Project `Board` to make sure each issue is in the correct status category. Issues move left to right across the board--future plans to completed.
+3. Don't work on too many things at once! Keep your `In Progress` and `Next` categories focused with only a manageable number of issues.
+4. Interlink items on GitHub to provide context. Sometimes all that is needed in the `Context` field is a link to another issue
     - Link PRs to issues
     - Link issues to issues
     - You can even link to items across different repositories within the group account, i.e., `Severson-Group/RepoWithIssue#32`
     - Tag people when you want to bring them into a discussion, i.e., `@elsevers, what do you think?`
-4. In a typical research week, try to complete at least one `todo` issue. If you are having trouble doing this, it probably means the issue is too big and needs to be broken up into smaller issues.
-5. Who is responsible for breaking issues up into smaller issues? The researcher it is assigned to! 
+5. In a typical research week, try to complete at least one `todo` issue. If you are having trouble doing this, it probably means the issue is too big and needs to be broken up into smaller issues.
+6. Who is responsible for breaking issues up into smaller issues? The researcher it is assigned to! 
     - Keep the original issue, but modify the `Approach` section to be a list of smaller `todo` issues
-6. Aren't sure what to do with an issue? Indicate that in the comments. Get help and revise the issue to make it clear what to do.
-7. Make some exciting progress or encounter set backs with a `todo` issue? Add this info to the comments.
-8. Are you stuck and need help with a `todo` issue? Document your problems in the comments.
-  
+7. Aren't sure what to do with an issue? Indicate that in the comments. Get help and revise the issue to make it clear what to do.
+8. Make some exciting progress or encounter set backs with a `todo` issue? Add this info to the comments.
+9. Are you stuck and need help with a `todo` issue? Document your problems in the comments.
+
+### 3.2 Meetings
+Check in meetings are run by reviewing the `Board View` going right to left. Start by going through the items wih a status of `Done`, and either archive or re-open each item here. Then move to the items that have a `Hold` status, then `In Progress`, `Next`, and so on.
+
 ## 4. Create a New Project
 To quickly set up a new repository using this system, 
 1. Use the `Research-Repo-Template` repository as a template (select `Research-Repo-Template` from the `Repository template` dropdown box when creating a new repo) and
