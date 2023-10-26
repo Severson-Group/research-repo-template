@@ -68,3 +68,9 @@ Project Workflow automation is set up to automatically add each new issue (and P
 6. Make some exciting progress or encounter set backs with a `todo` issue? Add this info to the comments.
 7. Are you stuck and need help with a `todo` issue? Document your problems in the comments.
   
+## 4. Create a New Project
+To quickly set up a new repository using this system, 
+1. Use the `Research-Repo-Template` repository as a template (select `Research-Repo-Template` from the `Repository template` dropdown box when creating a new repo) and
+2. In the new repo, turn on branch protection rules for `main` by going to settings -> `Branches` -> `Add rule` -> `Branch name pattern` set to `main` and check `Require a pull request before merging`, `Dismiss stale...`, `Require... codeowners`.
+3. Create a new project from `[TEMPLATE] Research Project`, by navigating [here](https://github.com/orgs/Severson-Group/projects/14) and clicking `Use this template` in the top right corner.
+4. On the new project, modify the Workflows by enabling `Auto-add to project`
