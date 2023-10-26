@@ -12,9 +12,9 @@ We are using GitHub to track project progress, items we need to finish and discu
 We have two types of issues: `todo` issues and `roadmap` issues. We set up the repositories to be pre-loaded with templates for each of these issues.
 
 `todo` issues: 
-- One GitHub issue == one `todo` item
-- The template prompts the user to provide information in the following fields: `Abstract`, `Context`, and `Approach`. This is optional, but encouraged.
-- A best practice is to make these issues small enough in scope that they can be reasonably completed within one week. If it takes longer than that, it probably is actually a collection of to-do items, and should be broken up into a series of smaller `todo` items. This is generally done by listing all of the smaller items as a checklist of issues under the `Approach` heading
+- One GitHub issue == one `todo` item; see [this example to do issue](https://github.com/Severson-Group/Research-Repo-Template/issues/11)
+- The template prompts the user to provide information in the following fields: `Abstract`, `Context`, and `Approach`. Populating these fields is optional, but encouraged.  
+- Either make these issues small enough in scope that they can be reasonably completed within one week OR make the issue be a checklist of smaller `todo` under the `Approach` heading, see [this example](https://github.com/Severson-Group/Research-Repo-Template/issues/13)
 - When you need to quickly record that something needs to get done, but don’t have time to properly articulate the issue: get that issue created with a partial description. **And then, later, come back and explain it.**
 - These issues have the label `todo` applied to them.
 
