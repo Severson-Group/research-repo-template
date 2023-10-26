@@ -67,9 +67,10 @@ Project Workflow automation is set up to automatically add each new issue (and P
 5. In a typical research week, try to complete at least one `todo` issue. If you are having trouble doing this, it probably means the issue is too big and needs to be broken up into smaller issues.
 6. Who is responsible for breaking issues up into smaller issues? The researcher it is assigned to! 
     - Keep the original issue, but modify the `Approach` section to be a list of smaller `todo` issues
-7. Aren't sure what to do with an issue? Indicate that in the comments. Get help and revise the issue to make it clear what to do.
-8. Make some exciting progress or encounter set backs with a `todo` issue? Add this info to the comments.
-9. Are you stuck and need help with a `todo` issue? Document your problems in the comments.
+7. Keep an active research dialog going on the `todo` issues. Some helpful examples can be found [here](https://github.com/Severson-Group/ARL-eturbo/issues/21), [here](https://github.com/Severson-Group/CHP_Bearingless_Drive/pull/10), and [here](https://github.com/Severson-Group/ARL-eturbo/issues/11)
+    1. Aren't sure what to do with an issue? Indicate that in the comments. Get help and revise the issue to make it clear what to do.
+    2. Make some exciting progress with a `todo` issue? Add this info to the comments.
+    3. Are you stuck and need help with a `todo` issue? Document your problems in the comments.
 
 ### 3.2 Meetings
 Check in meetings are run by reviewing the `Board View` going right to left. Start by going through the items wih a status of `Done`, and either archive or re-open each item here. Then move to the items that have a `Hold` status, then `In Progress`, `Next`, and so on.
