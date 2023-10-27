@@ -1,5 +1,5 @@
 ---
-name: Goal
+name: Roadmap
 about: This is for long term project planning
 title: ''
 labels: Roadmap
