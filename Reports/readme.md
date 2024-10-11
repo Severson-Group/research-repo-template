@@ -2,6 +2,11 @@
 
 This folder will contain reports for the project. Each report should be created within its own subfolder and contain a `readme.md` file. The report may also optionally contain additional files that are necessary for its analysis and do not belong elsewhere in the repository.
 
+This folder will contain reports for the project. Each report should:
+- be in its own subfolder, named using CamelCase; i.e. `DemagAnalysis\`
+- contain a `readme.md` file
+- optionally contain additional files that are necessary for its analyses and do not belong elsewhere in the repository
+
 ## Readme file specification
 
 Within the `readme.md` file, the following sections must be present:
