@@ -86,33 +86,34 @@ The goal of this view is to provide a modified Kanban style board to check in on
 The view is configured as GitHub's `Board` layout and applies the filter `-label:roadmap`. It is set up with six categories that `todo` issues (and PRs) are placed within to indicate their status, from left to right: 
 - `>1 Month`: issues where work is scheduled to start over one month away
 - `Next Month`: issues where work is scheduled to start sometime within the next month
-- `Next`: issues where work should start as soon as possible
+- `This Week`: issues that are planned to be addressed this week (if plans change, move these to another box)
 - `In Progress`: issues where work is currently in progress
 - `Hold`: issues where progress is blocked; e.g., waiting for parts or another researcher to answer a question
 -  `Done`: isses that have been completed and should be discussed at the next check in meeting (once these items have been discussed, the team archives them and they disappear from the board).
 
-Project Workflow automation is set up to automatically add each new issue (and PR) to the `Next`status and to move closed issues (and PRs) to the `Done` status. Researchers are expected to manually drag issues across the board to the other categories based on their current progress.
+Project Workflow automation is set up to automatically add each new issue (and PR) to the `This Week` status and to move closed issues (and PRs) to the `Done` status. Researchers are expected to manually drag issues across the board to the other categories based on their current progress.
 
 ## 3. Best Practices
 ### 3.1 Keep Everything Up-to-Date
-1. Graduate researchers should be hands-on and active with the `todo` issues: create, edit, updat, comment, re-organize--make them make sense for you and what you are working on.
+1. Graduate researchers should be hands-on and active with the `todo` issues: create, edit, update, comment, re-organize--make them make sense for you and what you are working on.
 2. Continually update the Project `Board` to make sure each issue is in the correct status category. Issues move left to right across the board--future plans to completed.
-3. Don't work on too many things at once! Keep your `In Progress` and `Next` categories focused with only a manageable number of issues.
+3. Don't work on too many things at once! Keep your `In Progress` and `This Week` categories focused with only a manageable number of issues.
 4. Interlink items on GitHub to provide context. Sometimes all that is needed in the `Context` field is a link to another issue
     - Link PRs to issues
     - Link issues to issues
     - You can even link to items across different repositories within the group account, i.e., `Severson-Group/RepoWithIssue#32`
     - Tag people when you want to bring them into a discussion, i.e., `@elsevers, what do you think?`
 5. In a typical research week, try to complete at least one `todo` issue. If you are having trouble doing this, it probably means the issue is too big and needs to be broken up into smaller issues.
-6. Who is responsible for breaking issues up into smaller issues? The researcher it is assigned to! 
+6. Start every week by populating the `This Week` box. Aim to empty this box by the end of the week.
+7. Who is responsible for breaking issues up into smaller issues? The researcher it is assigned to! 
     - Keep the original issue, but modify the `Approach` section to be a list of smaller `todo` issues
-7. Keep an active research dialog going on the `todo` issues. Some helpful examples can be found [here](https://github.com/Severson-Group/ARL-eturbo/issues/21), [here](https://github.com/Severson-Group/CHP_Bearingless_Drive/pull/10), and [here](https://github.com/Severson-Group/ARL-eturbo/issues/11)
+8. Keep an active research dialog going on the `todo` issues. Some helpful examples can be found [here](https://github.com/Severson-Group/ARL-eturbo/issues/21), [here](https://github.com/Severson-Group/CHP_Bearingless_Drive/pull/10), and [here](https://github.com/Severson-Group/ARL-eturbo/issues/11)
     1. Aren't sure what to do with an issue? Indicate that in the comments. Get help and revise the issue to make it clear what to do.
     2. Make some exciting progress with a `todo` issue? Add this info to the comments.
     3. Are you stuck and need help with a `todo` issue? Document your problems in the comments.
 
 ### 3.2 Meetings
-Check in meetings are run by reviewing the `Board View` going right to left. Start by going through the items wih a status of `Done`, and either archive or re-open each item here. Then move to the items that have a `Hold` status, then `In Progress`, `Next`, and so on.
+Check in meetings are run by reviewing the `Board View` going right to left. Start by going through the items wih a status of `Done`, and either archive or re-open each item here. Then move to the items that have a `Hold` status, then `In Progress`, `This Week`, and so on.
 
 ## 4. Create a New Project
 To quickly set up a new repository using this system, 
