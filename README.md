@@ -1,3 +1,42 @@
+# File Structure and Conventions
+
+## File Structure
+
+Every folder should have a `README.md` file that acts like a landing page for that folder and explains its contents.
+
+### File Naming
+
+Nearly all files should use the `dash-case` naming convention:
+
+- Do this: `this-is-my-amazing-file.md` (all lower case, hyphens instead of spaces)
+- Not this `thisIsMyAmazingFile.md` nor this `This Is My Amazing File.md`, etc.
+
+Follow this same naming convention for supporting files linked into markdown docs, i.e., images and PDF files.
+
+See the [docs.amdc.dev repository](https://github.com/Severson-Group/docs.amdc.dev) as an example.
+
+#### Software
+
+When committing software, use the naming convention of the software:
+
+- MATLAB naming convention is [listed here](code/matlab/README.md#style-guidelines)
+- Python naming convention is [listed here](code/python/README.md#style-guidelines)
+
+### Large Files
+
+Don't do it! **Files larger than 15MB should never be committed** *(files less than 1MB are preferred; most images can be less than 300 kB)*. If necessary, large files can be stored in the [eLev Shared Google Drive](https://drive.google.com/drive/u/1/folders/0AA1s4ZCcriV5Uk9PVA) and linked into Markdown articles.
+
+In the future, we may also explore using [Git Large File Storage](https://git-lfs.github.com/).
+
+If you accidentally commited a file larger than 15MB:
+
+1. submit a new commit that eliminates this file (i.e., replace it with a smaller file),
+2. ensure that the PR is merged via a `Squash and Merge` so that the large file does not appear in the repo history.
+
+## Reports
+
+See instructions in the [reports](reports/) folder.
+
 # GitHub for Organizing Research
 This document describes the recommended implementation of using GitHub to manage our group's research projects. 
 
