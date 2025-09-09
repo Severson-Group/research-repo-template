@@ -27,7 +27,7 @@ Copy-paste this template into your `README.md` file to start a new report.
 
 _Short section that outlines the objective of the study that resulted in this report. Bonus points for having it be a numbered list where each number is an objective._
 
-_OPTIONAL: May include table of contents for long reports._
+_OPTIONAL: May include table of contents for long reports. See example [here](https://github.com/Severson-Group/KnowledgeBase/blob/main/CONTRIBUTING.md#article-template)._
 
 ## Context
 
