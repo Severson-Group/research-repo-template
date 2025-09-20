@@ -41,12 +41,13 @@ _Provide the methodology used in the study and specify all necessary information
 
 _The results of the study. Typically includes graphics. Screenshots of slides are welcome, but watch the file size (keep it below 0.5 MB). Large files should be stored separately, in a Google Shared Drive folder. The best practice is to have a Reports within the project's Shared Google Drive, which consists of subfolders of the same name as each report. This folder should have a README Google Doc that links back to this report. After the report is merged, restrict user access to the folder to view only to prevent accidental changes. May consist of subsections. When many subsections are used, please number them. Writers are encouraged to conclude with a key takeaways section that has a short bullet list of the most important findings._ 
 
-## Relevant Issues
+## Relevant Issues / PRs
 
 _Bullet list of all relevant issues to facilitate future readers in learning more about the material of the report._
 
-- Issue #120: Route traces for the flux capacitor
-- Issue #130: Create a report on the flux capacitor
+- _Issue #120: Route traces for the flux capacitor <-- make this a link to the relevant issue_
+- _Issue #130: Create a report on the flux capacitor <-- make this a link to the relevant issue_
+- _PR #142: Add report on the flux capacitor field lines <-- make this a link to the relevant PR_
 ```
 
 ## Examples
