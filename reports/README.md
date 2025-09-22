@@ -1,6 +1,6 @@
 # Reports
 
-This folder will contain reports for the project. Each report should be created within its own subfolder and contain a `readme.md` file. The report may also optionally contain additional files that are necessary for its analysis and do not belong elsewhere in the repository.
+This folder will contain reports for the project. Each report should be created within its own subfolder and contain a `README.md` file. The report may also optionally contain additional files that are necessary for its analysis and do not belong elsewhere in the repository.
 
 This folder will contain reports for the project. Each report should:
 - be in its own subfolder, named using [dash-case](https://github.com/Severson-Group/KnowledgeBase/blob/main/CONTRIBUTING.md#file-naming); i.e. `demag-analysis\` (camelCase is also acceptable in repos already using camelCase).
