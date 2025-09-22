@@ -1,25 +1,48 @@
-# File Structure and Conventions
+# GitHub for Organizing Research <!-- omit from toc -->
 
-## File Structure
+This document describes the recommended implementation of using GitHub to manage our group's research projects.
+
+## Table of Contents <!-- omit from toc -->
+
+- [1. File Structure and Conventions](#1-file-structure-and-conventions)
+  - [File Structure](#file-structure)
+    - [File Naming](#file-naming)
+    - [Large Files](#large-files)
+- [2. GitHub Project Boards Rationale](#2-github-project-boards-rationale)
+- [3. Implementation](#3-implementation)
+  - [3.1 Issues](#31-issues)
+    - [3.1.1 Types](#311-types)
+    - [3.1.2 Closing an Issue](#312-closing-an-issue)
+  - [3.2 Project](#32-project)
+    - [3.2.1 Roadmap View](#321-roadmap-view)
+    - [3.2.2 Board View](#322-board-view)
+- [4. Best Practices](#4-best-practices)
+  - [4.1 Keep Everything Up-to-Date](#41-keep-everything-up-to-date)
+  - [4.2 Meetings](#42-meetings)
+- [5. Create a New Project](#5-create-a-new-project)
+
+## 1. File Structure and Conventions
+
+### File Structure
 
 Every folder should have a `README.md` file that acts like a landing page for that folder and explains its contents.
 
-### File Naming
+#### File Naming
 
 Files should be named following best practices for their file type.
 
-#### Markdown Documentation (and any other file type not called out below)
+##### Markdown Documentation (and any other file type not called out below) <!-- omit from toc -->
 
 Use the `dash-case` naming convention:
 
 - Do this: `this-is-my-amazing-file.md` (all lower case, hyphens instead of spaces)
 - Not this `thisIsMyAmazingFile.md` nor this `This Is My Amazing File.md`, etc.
 
-#### MATLAB / Simulink
+##### MATLAB / Simulink <!-- omit from toc -->
 
 Follow the Camel Case naming convention described in the [Knowledgebase's MATLAB article](https://github.com/Severson-Group/KnowledgeBase/blob/main/code/matlab/README.md#style-guidelines).
 
-#### Python
+##### Python <!-- omit from toc -->
 
 Follow the naming convention described in the [Knowledgebase's Python article](https://github.com/Severson-Group/KnowledgeBase/blob/main/code/python/README.md#style-guidelines), which is [snake case](https://en.wikipedia.org/wiki/Snake_case) for most file types.
 
@@ -27,14 +50,14 @@ Follow this same naming convention for supporting files linked into markdown doc
 
 See the [docs.amdc.dev repository](https://github.com/Severson-Group/docs.amdc.dev) as an example.
 
-#### Software
+##### Software <!-- omit from toc -->
 
 When committing software, use the naming convention of the software:
 
 - MATLAB naming convention is [listed here](code/matlab/README.md#style-guidelines)
 - Python naming convention is [listed here](code/python/README.md#style-guidelines)
 
-### Large Files
+#### Large Files
 
 Don't do it! **Files larger than 15MB should never be committed** *(files less than 300kB are preferred; and files larger than 1 MB should be avoided)*. Large files can be stored in Google Drive and linked into Markdown articles.
 
@@ -45,23 +68,15 @@ If you accidentally commited a file larger than 15MB:
 1. submit a new commit that eliminates this file (i.e., replace it with a smaller file),
 2. ensure that the PR is merged via a `Squash and Merge` so that the large file does not appear in the repo history.
 
-## Reports
-
-See instructions in the [reports](reports/) folder.
-
-# GitHub for Organizing Research
-
-This document describes the recommended implementation of using GitHub to manage our group's research projects.
-
-## 1. Rationale
+## 2. GitHub Project Boards Rationale
 
 We are using GitHub to track project progress, items we need to finish and discuss, and to give structure to our meetings. This approach is similar in nature to using Trello with a Kanban board configuration. We use this over Trello because of our success with using GitHub in our code and controls development and to minimize the number of different tools we have going.
 
-## 2. Implementation
+## 3. Implementation
 
-### 2.1 Issues
+### 3.1 Issues
 
-#### 2.1.1 Types
+#### 3.1.1 Types
 
 We have two types of issues: `todo` issues and `roadmap` issues. We set up the repositories to be pre-loaded with templates for each of these issues.
 
@@ -81,17 +96,17 @@ We have two types of issues: `todo` issues and `roadmap` issues. We set up the r
 - Usually these issues are created once at the start of a project, with due dates revised if the project timeline is revised.
 - These issues have the label `roadmap` applied to them.
 
-#### 2.1.2 Closing an Issue
+#### 3.1.2 Closing an Issue
 
 To close a `todo` issue, leave a comment explaining how the issue has been completed and where a person would go to see the result. Depending on the nature of the issue, indicate where the completed work is by presenting your work in the issue for us to discuss or linking to a PR or code you added to the repo, attaching a picture or screenshot, or linking to a file in Google drive.
 
 Did finishing an issue result in something of archival value? The issue should not be the only place that you store the result. I.e., add it to the repo. Or place it in Google Drive. Or... something else that is more permanent than the issue.
 
-### 2.2 Project
+### 3.2 Project
 
 Each research project being organized in GitHub will have one GitHub Project. The project will have `status`, `Start date`, and `Due date` fields that can be populated on all issues. GitHub Workflows will be used to facilitate east of project management. The Project will consist of two key views: `Roadmap` and `Board`, which are now described in conjunction with how they make use of the issue fields and Workflows.
 
-#### 2.2.1 Roadmap View
+#### 3.2.1 Roadmap View
 
 The goal of this view is to provide a project management perspective on project timeline. It is meant to facilitate the team checking in on the critical milestones and obtain a quick glimpse into whether the project is on track. An example roadmap view can be found [here](https://github.com/orgs/Severson-Group/projects/14) (select a date in October 2023 to view the issues).
 
@@ -99,7 +114,7 @@ This view is configured as GitHub's `Roadmap` layout and appplies the filter `la
 
 With this configuration, the `roadmap` issues are mapped out on a timeline. At team meetings, members can easily click on each of the issues to see the list of `todo` issues that need to be completed (and whether or not they are completed).
 
-#### 2.2.2 Board View
+#### 3.2.2 Board View
 
 The goal of this view is to provide a modified Kanban style board to check in on `todo` issues. This view is where researchers will spend most of their time, checking in and updating on project progress. It is meant to quickly show what each team member is focusing on this week, what work has been completed, and what work remains. The project team will talk through this board at each check in meeting. An example board view can be found [here](https://github.com/orgs/Severson-Group/projects/14/views/2).
 
@@ -114,9 +129,9 @@ The view is configured as GitHub's `Board` layout and applies the filter `-label
 
 Project Workflow automation is set up to automatically add each new issue (and PR) to the `This Week` status and to move closed issues (and PRs) to the `Done` status. Researchers are expected to manually drag issues across the board to the other categories based on their current progress.
 
-## 3. Best Practices
+## 4. Best Practices
 
-### 3.1 Keep Everything Up-to-Date
+### 4.1 Keep Everything Up-to-Date
 
 1. Graduate researchers should be hands-on and active with the `todo` issues: create, edit, update, comment, re-organize--make them make sense for you and what you are working on.
 2. Continually update the Project `Board` to make sure each issue is in the correct status category. Issues move left to right across the board--future plans to completed.
@@ -135,11 +150,11 @@ Project Workflow automation is set up to automatically add each new issue (and P
     2. Make some exciting progress with a `todo` issue? Add this info to the comments.
     3. Are you stuck and need help with a `todo` issue? Document your problems in the comments.
 
-### 3.2 Meetings
+### 4.2 Meetings
 
 Check in meetings are run by reviewing the `Board View` going right to left. Start by going through the items wih a status of `Done`, and either archive or re-open each item here. Then move to the items that have a `Hold` status, then `In Progress`, `This Week`, and so on.
 
-## 4. Create a New Project
+## 5. Create a New Project
 
 To quickly set up a new repository using this system,
 
