@@ -19,7 +19,7 @@ This folder typically contains the [AMDC-Firmware](https://github.com/severson-g
 
 Note that there should only be [AMDC-Firmware](https://github.com/severson-group/amdc-firmware/) submodule.
 
-## How to Create a Publication Subfolder
+## How to Create a Control Subfolder
 
 At the time of creating this `README.md`, we do not have a specification for this folder. Check the latest version of our [research-repo-template](https://github.com/Severson-Group/research-repo-template/tree/main/modeling) for up to date instructions.
 
