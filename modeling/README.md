@@ -15,7 +15,7 @@ This document explains the contents of the modeling folder and links to resource
 
 ## Folder Contents
 
-This folder typically contains the [eMachPrivate](https://github.com/Severson-Group/eMachPrivate) repo as a submodule and may also contain other model folders and modeling and optimization code as well as Simulink Models.
+This folder typically contains the [eMachPrivate](https://github.com/Severson-Group/eMachPrivate) repo as a submodule and may also contain other model folders and modeling and optimization code as well as Simulink models.
 
 Each modeling initiative gets its own subfolder. However, there should be only one [eMachPrivate](https://github.com/Severson-Group/eMachPrivate) submodule.
 
