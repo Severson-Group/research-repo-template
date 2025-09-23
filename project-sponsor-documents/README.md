@@ -17,7 +17,7 @@ This document explains the contents of the project sponsor documents folder.
 
 This folder typically contains the proposal / statement of work and any reports provided to the project sponsor.
 
-## How to Create a Publication Subfolder
+## How to Setup Project Sponsor Documents Subfolder
 
 At the time of creating this `README.md`, we do not have a specification for this folder. Check the latest version of our [research-repo-template](https://github.com/Severson-Group/research-repo-template/tree/main/project-sponsor-documents) for up to date instructions.
 
