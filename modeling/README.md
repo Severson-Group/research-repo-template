@@ -19,7 +19,7 @@ This folder typically contains the [eMachPrivate](https://github.com/Severson-Gr
 
 Each modeling initiative gets its own subfolder. However, there should be only one [eMachPrivate](https://github.com/Severson-Group/eMachPrivate) submodule.
 
-## How to Create a Publication Subfolder
+## How to Create a Modeling Subfolder
 
 At the time of creating this `README.md`, we do not have a specification for this folder. Check the latest version of our [research-repo-template](https://github.com/Severson-Group/research-repo-template/tree/main/modeling) for up to date instructions.
 
