@@ -110,7 +110,7 @@ Each research project being organized in GitHub will have one GitHub Project. Th
 
 The goal of this view is to provide a project management perspective on project timeline. It is meant to facilitate the team checking in on the critical milestones and obtain a quick glimpse into whether the project is on track. An example roadmap view can be found [here](https://github.com/orgs/Severson-Group/projects/14) (select a date in October 2023 to view the issues).
 
-This view is configured as GitHub's `Roadmap` layout and appplies the filter `label:roadmap` so that it only shows `roadmap` issues. The layout's `Date fields` are configured for the `Start date` and `Due date` fields of the `roadmap` issue (note that these fields are only used on `roadmap` issues; they are not used on `todo` issues).
+This view is configured as GitHub's `Roadmap` layout and applies the filter `label:roadmap` so that it only shows `roadmap` issues. The layout's `Date fields` are configured for the `Start date` and `Due date` fields of the `roadmap` issue (note that these fields are only used on `roadmap` issues; they are not used on `todo` issues).
 
 With this configuration, the `roadmap` issues are mapped out on a timeline. At team meetings, members can easily click on each of the issues to see the list of `todo` issues that need to be completed (and whether or not they are completed).
 
