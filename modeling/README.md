@@ -32,4 +32,4 @@ In the meantime, please refer to the [examples](#examples) below.
 - NSF PFI [modeling](https://github.com/Severson-Group/nsf_pfi_bearingless/tree/main/modeling)
 - Sandia [modeling](https://github.com/Severson-Group/sandia_sco2/tree/main/modeling)
 
-Note that our guidelines for creating publications folders have evolved over time. Some of these example reports may have been created based on earlier guidelines.
+Note that our guidelines for creating modeling folders have evolved over time. Some of these example reports may have been created based on earlier guidelines.
