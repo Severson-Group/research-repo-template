@@ -63,7 +63,7 @@ Don't do it! **Files larger than 15MB should never be committed** *(files less t
 
 In the future, we may also explore using [Git Large File Storage](https://git-lfs.github.com/).
 
-If you accidentally commited a file larger than 15MB:
+If you accidentally committed a file larger than 15MB:
 
 1. submit a new commit that eliminates this file (i.e., replace it with a smaller file),
 2. ensure that the PR is merged via a `Squash and Merge` so that the large file does not appear in the repo history.
