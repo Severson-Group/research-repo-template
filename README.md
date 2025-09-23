@@ -125,7 +125,7 @@ The view is configured as GitHub's `Board` layout and applies the filter `-label
 - `This Week`: issues that are planned to be started this week (if plans change, move these to another box)
 - `In Progress`: issues where work is currently in progress
 - `Hold`: issues where progress is blocked; e.g., waiting for parts or another researcher to answer a question
-- `Done`: isses that have been completed and should be discussed at the next check in meeting (once these items have been discussed, the team archives them and they disappear from the board).
+- `Done`: issues that have been completed and should be discussed at the next check in meeting (once these items have been discussed, the team archives them and they disappear from the board).
 
 Project Workflow automation is set up to automatically add each new issue (and PR) to the `This Week` status and to move closed issues (and PRs) to the `Done` status. Researchers are expected to manually drag issues across the board to the other categories based on their current progress.
 
