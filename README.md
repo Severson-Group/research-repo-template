@@ -38,6 +38,10 @@ Use the `dash-case` naming convention:
 - Do this: `this-is-my-amazing-file.md` (all lower case, hyphens instead of spaces)
 - Not this `thisIsMyAmazingFile.md` nor this `This Is My Amazing File.md`, etc.
 
+Follow this same naming convention for supporting files linked into markdown docs, i.e., images and PDF files.
+
+See the [docs.amdc.dev repository](https://github.com/Severson-Group/docs.amdc.dev) as an example.
+
 ##### MATLAB / Simulink <!-- omit from toc -->
 
 Follow the Camel Case naming convention described in the [Knowledgebase's MATLAB article](https://github.com/Severson-Group/KnowledgeBase/blob/main/code/matlab/README.md#style-guidelines).
@@ -45,10 +49,6 @@ Follow the Camel Case naming convention described in the [Knowledgebase's MATLAB
 ##### Python <!-- omit from toc -->
 
 Follow the naming convention described in the [Knowledgebase's Python article](https://github.com/Severson-Group/KnowledgeBase/blob/main/code/python/README.md#style-guidelines), which is [snake case](https://en.wikipedia.org/wiki/Snake_case) for most file types.
-
-Follow this same naming convention for supporting files linked into markdown docs, i.e., images and PDF files.
-
-See the [docs.amdc.dev repository](https://github.com/Severson-Group/docs.amdc.dev) as an example.
 
 ##### Software <!-- omit from toc -->
 
