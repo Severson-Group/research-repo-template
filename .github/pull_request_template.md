@@ -1,16 +1,19 @@
 Closes _indicate issue number this PR closes_
 
-# Related issues
-
-_Link related issues, documentation, or past PRs if applicable._
-
 # Notes
 
-_Anything reviewers should be aware of when reviewing? Known issues? Future work?_
+_Anything reviewers should be aware of when reviewing? Other related issues? Known problems? Future work?_
 
 # PR Review Checklist
 
-Reviewers, copy and paste the following text into your review and answer the questions:
+Please self-report (answer all questions) on a suitable review checklist. Select from the following:
+- [Standard checklist](https://github.com/Severson-Group/research-repo-template/blob/main/.github/pull_request_template.md), also included below.
+- [New report checklist]()
+- [Publication checklists]()
+
+Reviewers, copy and paste the checklist text into your review and answer the questions.
+
+## Standard checklist
 
 ```markdown
 1. Are all files under 300 kB (if not, please carefully assess whether it is worth committing them)? **Yes or No**
