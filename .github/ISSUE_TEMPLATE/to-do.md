@@ -12,7 +12,8 @@ assignees: ''
 _To do: add one sentence description of what needs to happen_
 
 # Context
-Related Issues _To do: list all related issues_
+
+**Related Issues / PRs:** _(To do: list all related issues)_
 - #10
 - #15
 
