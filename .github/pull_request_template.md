@@ -8,7 +8,7 @@ _Anything reviewers should be aware of when reviewing? Other related issues? Kno
 
 Please self-report (answer all questions) on a suitable review checklist. Select from the following:
 - [Standard checklist](https://github.com/Severson-Group/research-repo-template/blob/main/.github/pull_request_template.md), also included below.
-- [New report checklist]()
+- [New report checklist](https://github.com/Severson-Group/KnowledgeBase/blob/main/writing/write-repo-report.md#pr-review-checklist)
 - [Publication checklists]()
 
 Reviewers, copy and paste the checklist text into your review and answer the questions.
