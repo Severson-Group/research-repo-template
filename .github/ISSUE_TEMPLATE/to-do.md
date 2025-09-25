@@ -7,10 +7,6 @@ assignees: ''
 
 ---
 
-# Abstract
-
-_To do: add one sentence description of what needs to happen_
-
 # Context
 
 **Related Issues / PRs:** _(To do: list all related issues)_
