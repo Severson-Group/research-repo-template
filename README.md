@@ -50,13 +50,6 @@ Follow the Camel Case naming convention described in the [Knowledgebase's MATLAB
 
 Follow the naming convention described in the [Knowledgebase's Python article](https://github.com/Severson-Group/KnowledgeBase/blob/main/code/python/README.md#style-guidelines), which is [snake case](https://en.wikipedia.org/wiki/Snake_case) for most file types.
 
-##### Software <!-- omit from toc -->
-
-When committing software, use the naming convention of the software:
-
-- MATLAB naming convention is [listed here](code/matlab/README.md#style-guidelines)
-- Python naming convention is [listed here](code/python/README.md#style-guidelines)
-
 #### Large Files
 
 Don't do it! **Files larger than 15MB should never be committed** *(files less than 300kB are preferred; and files larger than 1 MB should be avoided)*. Large files can be stored in Google Drive and linked into Markdown articles.
