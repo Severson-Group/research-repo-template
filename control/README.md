@@ -40,6 +40,5 @@ Note that our guidelines for creating control folders have evolved over time. So
 
 *Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
 
-- _Issue #120: Route traces for the flux capacitor <-- make this a link to the relevant issue_
-- _Issue #130: Create a report on the flux capacitor <-- make this a link to the relevant issue_
-- _PR #142: Add report on the flux capacitor field lines <-- make this a link to the relevant PR_
+- _Issue #18: Simulate machine under load <-- make this a link to the relevant issue_
+- _Issue #19: Order PCBs <-- make this a link to the relevant PR_

@@ -41,6 +41,12 @@ Note that our guidelines for creating the prototypes folder have evolved over ti
 
 *Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
 
-- _Issue #120: Route traces for the flux capacitor <-- make this a link to the relevant issue_
-- _Issue #130: Create a report on the flux capacitor <-- make this a link to the relevant issue_
-- _PR #142: Add report on the flux capacitor field lines <-- make this a link to the relevant PR_
+- _Issue #1: Prepare to build test stand <-- make this a link to the relevant issue_
+- _Issue #2: Compile set of manufacturing constraints for prototype <-- make this a link to the relevant issue_
+- _Issue #4: Build encoder assembly <-- make this a link to the relevant PR_
+- _Issue #5: Order encoder magnets <-- make this a link to the relevant PR_
+- _Issue #6: Create manufacturable prototype machine design <-- make this a link to the relevant PR_
+- _Issue #7: Create and exercise detailed 3D JMAG models of prototype <-- make this a link to the relevant PR_
+- _Issue #10: Create detailed CAD drawings of prototype <-- make this a link to the relevant PR_
+- _Issue #15: Characterize prototype <-- make this a link to the relevant PR_
+- _Issue #19: Order PCBs <-- make this a link to the relevant PR_

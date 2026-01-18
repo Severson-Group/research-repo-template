@@ -39,6 +39,4 @@ Note that our guidelines for creating publications folders have evolved over tim
 
 *Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
 
-- _Issue #120: Route traces for the flux capacitor <-- make this a link to the relevant issue_
-- _Issue #130: Create a report on the flux capacitor <-- make this a link to the relevant issue_
-- _PR #142: Add report on the flux capacitor field lines <-- make this a link to the relevant PR_
+- _Issue #42: Archive all research material for publication xxxx and create `README.md` <-- make this a link to the relevant PR_

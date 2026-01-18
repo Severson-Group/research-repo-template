@@ -40,6 +40,7 @@ Note that our guidelines for creating reports have evolved over time. Some of th
 
 *Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
 
-- _Issue #120: Route traces for the flux capacitor <-- make this a link to the relevant issue_
-- _Issue #130: Create a report on the flux capacitor <-- make this a link to the relevant issue_
-- _PR #142: Add report on the flux capacitor field lines <-- make this a link to the relevant PR_
+- _Issue #12: Determine kt and ke <-- make this a link to the relevant issue_
+- _Issue #14: Create report on 3D FEA model results <-- make this a link to the relevant issue_
+- _Issue #16: Derive flux linkage relationship <-- make this a link to the relevant issue_
+- _Issue #23: Create a script to make a torque-speed-efficiency plot <-- make this a link to the relevant issue_

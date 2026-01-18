@@ -39,6 +39,9 @@ Note that our guidelines for creating modeling folders have evolved over time. S
 
 *Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
 
-- _Issue #120: Route traces for the flux capacitor <-- make this a link to the relevant issue_
-- _Issue #130: Create a report on the flux capacitor <-- make this a link to the relevant issue_
-- _PR #142: Add report on the flux capacitor field lines <-- make this a link to the relevant PR_
+- _Issue #7: Create and exercise detailed 3D JMAG models of prototype <-- make this a link to the relevant PR_
+- _Issue #9: Characterize the design space with eMach <-- make this a link to the relevant issue_
+- _Issue #11: Create 3D FEA model using quarter symmetry <-- make this a link to the relevant issue_
+- _Issue #13: Create torque speed efficiency map <-- make this a link to the relevant issue_
+- _Issue #20: Create python script to call the eMach analyzer over a range of torque and speed points <-- make this a link to the relevant issue_
+- _Issue #21: Run python script to collect torque-speed-efficiency data <-- make this a link to the relevant issue_
