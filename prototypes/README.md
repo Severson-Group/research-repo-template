@@ -6,7 +6,7 @@
 
 - [Purpose of Document](#purpose-of-document)
 - [Folder Contents](#folder-contents)
-- [How to Create a Publication Subfolder](#how-to-create-a-publication-subfolder)
+- [How to Create a Prototypes Subfolder](#how-to-create-a-prototypes-subfolder)
 - [Examples](#examples)
 
 ## Purpose of Document
