@@ -8,6 +8,7 @@
 - [Folder Contents](#folder-contents)
 - [How to Create Reports](#how-to-create-reports)
 - [Examples](#examples)
+- [Related Issues / PRs](#related-issues--prs)
 
 ## Purpose of Document
 
@@ -34,3 +35,11 @@ Researchers in the eLev lab should follow instructions provided in their [Knowle
 - Sandia [reports](https://github.com/Severson-Group/sandia_sco2/tree/main/Reports)
 
 Note that our guidelines for creating reports have evolved over time. Some of these example reports may have been created based on earlier guidelines.
+
+## Related Issues / PRs
+
+*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+
+- _Issue #120: Route traces for the flux capacitor <-- make this a link to the relevant issue_
+- _Issue #130: Create a report on the flux capacitor <-- make this a link to the relevant issue_
+- _PR #142: Add report on the flux capacitor field lines <-- make this a link to the relevant PR_
