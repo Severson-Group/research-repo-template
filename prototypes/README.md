@@ -8,6 +8,7 @@
 - [Folder Contents](#folder-contents)
 - [How to Create a Prototypes Subfolder](#how-to-create-a-prototypes-subfolder)
 - [Examples](#examples)
+- [Related Issues / PRs](#related-issues--prs)
 
 ## Purpose of Document
 
@@ -35,3 +36,17 @@ In the meantime, please refer to the [examples](#examples) below.
 - Sandia [prototypes](https://github.com/Severson-Group/sandia_sco2/tree/main/Prototypes)
 
 Note that our guidelines for creating the prototypes folder have evolved over time. Some of these example reports may have been created based on earlier guidelines.
+
+## Related Issues / PRs
+
+*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+
+- _Issue #1: Prepare to build test stand <-- make this a link to the relevant issue_
+- _Issue #2: Compile set of manufacturing constraints for prototype <-- make this a link to the relevant issue_
+- _Issue #4: Build encoder assembly <-- make this a link to the relevant PR_
+- _Issue #5: Order encoder magnets <-- make this a link to the relevant PR_
+- _Issue #6: Create manufacturable prototype machine design <-- make this a link to the relevant PR_
+- _Issue #7: Create and exercise detailed 3D JMAG models of prototype <-- make this a link to the relevant PR_
+- _Issue #10: Create detailed CAD drawings of prototype <-- make this a link to the relevant PR_
+- _Issue #15: Characterize prototype <-- make this a link to the relevant PR_
+- _Issue #19: Order PCBs <-- make this a link to the relevant PR_

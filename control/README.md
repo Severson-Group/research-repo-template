@@ -8,6 +8,7 @@
 - [Folder Contents](#folder-contents)
 - [How to Create a Control Subfolder](#how-to-create-a-control-subfolder)
 - [Examples](#examples)
+- [Related Issues / PRs](#related-issues--prs)
 
 ## Purpose of Document
 
@@ -34,3 +35,10 @@ In the meantime, please refer to the [examples](#examples) below.
 - Sandia [control](https://github.com/Severson-Group/sandia_sco2/tree/main/controls)
 
 Note that our guidelines for creating control folders have evolved over time. Some of these example reports may have been created based on earlier guidelines.
+
+## Related Issues / PRs
+
+*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+
+- _Issue #18: Simulate machine under load <-- make this a link to the relevant issue_
+- _Issue #19: Order PCBs <-- make this a link to the relevant PR_

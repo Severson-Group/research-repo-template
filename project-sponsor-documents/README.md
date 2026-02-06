@@ -8,6 +8,7 @@
 - [Folder Contents](#folder-contents)
 - [How to Setup Project Sponsor Documents Subfolder](#how-to-setup-project-sponsor-documents-subfolder)
 - [Examples](#examples)
+- [Related Issues / PRs](#related-issues--prs)
 
 ## Purpose of Document
 
@@ -29,3 +30,9 @@ In the meantime, please refer to the [examples](#examples) below.
 - NSF PFI [project sponsor documents](https://github.com/Severson-Group/nsf_pfi_bearingless/tree/main/project-sponsor-documents)
 
 Note that our guidelines for creating project sponsor document folders have evolved over time. Some of these example reports may have been created based on earlier guidelines.
+
+## Related Issues / PRs
+
+*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+
+- _Issue #17: New statement of work goal <-- make this a link to the relevant issue_

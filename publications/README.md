@@ -8,6 +8,7 @@
 - [Folder Contents](#folder-contents)
 - [How to Create a Publication Subfolder](#how-to-create-a-publication-subfolder)
 - [Examples](#examples)
+- [Related Issues / PRs](#related-issues--prs)
 
 ## Purpose of Document
 
@@ -33,3 +34,9 @@ Researchers in the eLev lab should follow instructions provided in their [Knowle
 - Sandia [publications](https://github.com/Severson-Group/sandia_sco2/tree/main/Publications)
 
 Note that our guidelines for creating publications folders have evolved over time. Some of these example reports may have been created based on earlier guidelines.
+
+## Related Issues / PRs
+
+*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+
+- _Issue #42: Archive all research material for publication xxxx and create `README.md` <-- make this a link to the relevant PR_

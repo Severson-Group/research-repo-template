@@ -8,6 +8,7 @@
 - [Folder Contents](#folder-contents)
 - [How to Create Reports](#how-to-create-reports)
 - [Examples](#examples)
+- [Related Issues / PRs](#related-issues--prs)
 
 ## Purpose of Document
 
@@ -34,3 +35,12 @@ Researchers in the eLev lab should follow instructions provided in their [Knowle
 - Sandia [reports](https://github.com/Severson-Group/sandia_sco2/tree/main/Reports)
 
 Note that our guidelines for creating reports have evolved over time. Some of these example reports may have been created based on earlier guidelines.
+
+## Related Issues / PRs
+
+*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+
+- _Issue #12: Determine kt and ke <-- make this a link to the relevant issue_
+- _Issue #14: Create report on 3D FEA model results <-- make this a link to the relevant issue_
+- _Issue #16: Derive flux linkage relationship <-- make this a link to the relevant issue_
+- _Issue #23: Create a script to make a torque-speed-efficiency plot <-- make this a link to the relevant issue_

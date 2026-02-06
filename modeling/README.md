@@ -8,6 +8,7 @@
 - [Folder Contents](#folder-contents)
 - [How to Create a Modeling Subfolder](#how-to-create-a-modeling-subfolder)
 - [Examples](#examples)
+- [Related Issues / PRs](#related-issues--prs)
 
 ## Purpose of Document
 
@@ -33,3 +34,14 @@ In the meantime, please refer to the [examples](#examples) below.
 - Sandia [modeling](https://github.com/Severson-Group/sandia_sco2/tree/main/modeling)
 
 Note that our guidelines for creating modeling folders have evolved over time. Some of these example reports may have been created based on earlier guidelines.
+
+## Related Issues / PRs
+
+*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+
+- _Issue #7: Create and exercise detailed 3D JMAG models of prototype <-- make this a link to the relevant PR_
+- _Issue #9: Characterize the design space with eMach <-- make this a link to the relevant issue_
+- _Issue #11: Create 3D FEA model using quarter symmetry <-- make this a link to the relevant issue_
+- _Issue #13: Create torque speed efficiency map <-- make this a link to the relevant issue_
+- _Issue #20: Create python script to call the eMach analyzer over a range of torque and speed points <-- make this a link to the relevant issue_
+- _Issue #21: Run python script to collect torque-speed-efficiency data <-- make this a link to the relevant issue_
