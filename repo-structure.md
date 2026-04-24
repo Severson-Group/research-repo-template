@@ -5,6 +5,8 @@
 ## Table of Contents <!-- omit from toc -->
 
 - [Purpose of Document](#purpose-of-document)
+- [Motivation](#motivation)
+- [Exceptions to Structure](#exceptions-to-structure)
 - [Recommended Repo Structure](#recommended-repo-structure)
 - [Related Issues / PRs](#related-issues--prs)
 
@@ -12,13 +14,34 @@
 
 The goal of this article is to provide a bird's eye view of the recommended research repository structure.
 
+## Motivation
+
+The detailed repository structure provided in [Recommended Repo Structure](#recommended-repo-structure) is recommended for all research repositories. This is intended to establish uniformity across our research repositories. The ultimate goals being to
+
+1. make our repositories easier to navigate and
+2. make decisions about how to structure research material easier, quicker, and better.
+
+## Exceptions to Structure
+
+Since the nature of research is "to do the unexpected," deviations from the [Recommended Repo Structure](#recommended-repo-structure) will be necessary from time to time. The most common deviations are expected to include:
+
+1. Omission of folders that are listed below (not every repo will need everything in here, especially early on).
+2. Contents of the project sponsor documents folder (these are expected to vary significantly from project to project, especially if one repo houses a project sponsored by multiple entities).
+3. Organization of the experiments folder (will vary based on the nature of the project and number of distinct experiments and prototypes).
+
+> [!TIP]
+> Do follow the recommended structure whenever possible. More often than not, research material will benefit from being conformed to fit this structure. A succinctly worded README file explaining rationale and file placement can do wonders to make things work.
+>
+
 ## Recommended Repo Structure
+
+All directories should contain a README file. Refer to the [research-repo-template](https://github.com/Severson-Group/research-repo-template) folders detailed explanations of individual files/folders.
 
 ```
 research repo
 │
 ├── README.md (repo landing page)
-├── control/
+├── control/ (archive of control algorithms and code)
 │   ├── README.md
 │   ├── AMDC-Firmware/ (git submodule)
 │   ├── elev-control-lib/ (git submodule)
@@ -40,18 +63,19 @@ research repo
 │       ⋮
 │       └── control-sim-x/
 │
-├── experiments/ (optionally organize into subfolders, e.g. per prototype or experiment)
+├── experiments/ (optionally organized into subfolders, e.g. per prototype, round of experiment, project phase)
 │   ├── README.md
 │   ├── instrumentation/
-│   │   ├── README.md
+│   │   ├── README.md (documenting overall setup, room layout, etc.)
 │   │   ├── connection-schematic.svg
 │   │   ├── ground-schematic.svg
-│   │   ├── equipment-1/
-│   │   │   └── README.md
+│   │   ├── equipment-1/ 
+│   │   │   ├── README.md (emphasizing any customization for project)
+│   │   │   └── procurement/ (optional, only when it makes sense)
 │   │   ⋮
 │   │   └── equipment-x/
 │   ├── results/
-│   │   └── README.md (e.g., overview of where lab notebook & data is stored)
+│   │   └── README.md (e.g., where lab notebook & data is stored, list relevant reports)
 │   └── test-plans/
 │       ├── README.md
 │       ├── plan-1.md
@@ -59,7 +83,7 @@ research repo
 │       ⋮
 │       └── plan-x.md
 │
-├── modeling/
+├── modeling/ (archive of models developed in the research)
 │   ├── README.md
 │   ├── eMachPrivate/ (git submodule)
 │   ├── model-1/ (often FEA, but could be analytic or other)
@@ -69,15 +93,15 @@ research repo
 │   ⋮
 │   └── model-x/
 │
-├── project-sponsor-documents/
+├── project-sponsor-documents/ (highly dependent on project)
 │   ├── README.md
-│   ├── annual-reports/
+│   ├── annual-reports/ (depending on the project)
 │   │   ├── 2025/
 │   │   ⋮   
 │   │   └── 20xx/
-│   └── proposal/
+│   └── proposal/ 
 │
-├── prototypes/
+├── prototypes/ (archive of prototypes designs used in the project)
 │   ├── power-electronics/ (or, locate in instrumentation)
 │   │   ├── README.md (include connection tables)
 │   │   ├── connection-schematic.svg
@@ -126,7 +150,7 @@ research repo
 │       ⋮
 │       └── component-x-name/
 │
-├── publications/
+├── publications/ (archive of publications)
 │   ├──ECCE2025/
 │   │   ├── digest/
 │   │   │   ├── README.md (use publication template)
@@ -142,7 +166,7 @@ research repo
 │   ⋮
 │   └──CONFYEAR/
 │
-└── reports/
+└── reports/ (archive of engineering reports)
     ├── report-1-name/
     │   ├── README.md (use report template)
     │   ├── optional-file.pdf
@@ -157,8 +181,6 @@ research repo
 
 ## Related Issues / PRs
 
-*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
-
-- _Issue #120: Route traces for the flux capacitor <-- make this a link to the relevant issue_
-- _Issue #130: Create a report on the flux capacitor <-- make this a link to the relevant issue_
-- _PR #142: Add report on the flux capacitor field lines <-- make this a link to the relevant PR_
+- [Issue #33: Document prototypes folder folder contents specification](https://github.com/Severson-Group/research-repo-template/issues/33)
+- [Issue #292: Brainstorm ideas on KB article on creating and releasing CAD designs](https://github.com/Severson-Group/KnowledgeBase/issues/292)
+- [PR #42: Document overall research repo readme structure](https://github.com/Severson-Group/research-repo-template/issues/42)
