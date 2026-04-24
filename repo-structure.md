@@ -86,6 +86,7 @@ research repo
 ├── modeling/ (archive of models developed in the research)
 │   ├── README.md
 │   ├── eMachPrivate/ (git submodule)
+│   │   └──eMach/ (git submodule)
 │   ├── model-1/ (often FEA, but could be analytic or other)
 │   │   ├── README.md
 │   │   ⋮
