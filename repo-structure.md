@@ -163,7 +163,11 @@ research repo
 │   │       ├── README.md
 │   │       └── images/
 │   ├──ITEC2026/
+│   │   ├── digest/
+│   │   └── paper/
 │   ├──TIA2026/
+│   │   ├── README.md
+│   │   └── images/
 │   ⋮
 │   └──CONFYEAR/
 │
