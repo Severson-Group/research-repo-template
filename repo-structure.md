@@ -41,11 +41,9 @@ All directories should contain a README file. Refer to the [research-repo-templa
 research repo
 │
 ├── README.md (repo landing page)
-├── control/ (archive of control algorithms and code)
+├── firmware/ (archive of control algorithms and code)
 │   ├── README.md
 │   ├── AMDC-Firmware/ (git submodule)
-│   ├── elev-control-lib/ (git submodule)
-│   ├── jupyter/ (collection of notebooks to operate AMDC)
 │   ├── project-firmware (AMDC firmware for this project)
 │   │   ├── ldscript.ld
 │   │   ├── Xilinx.spec
@@ -54,14 +52,7 @@ research repo
 │   │       ├── usr-app-1/
 │   │       ⋮
 │   │       └── usr-app-x/
-│   └── simulink/
-│       ├── README.md 
-│       ├── control-sim-1/ (often used to autogen code)
-│       │   ├── README.md
-│       │   ├── control-sim-1.slx
-│       │   ⋮
-│       ⋮
-│       └── control-sim-x/
+│   └── jupyter/ (collection of notebooks to operate AMDC)
 │
 ├── experiments/ (optionally organized into subfolders, e.g. per prototype, round of experiment, project phase)
 │   ├── README.md
@@ -76,6 +67,7 @@ research repo
 │   │   └── equipment-x/
 │   ├── results/
 │   │   └── README.md (e.g., where lab notebook & data is stored, list relevant reports)
+│   ├── jupyter/ (collection of notebooks to run experiments)
 │   └── test-plans/
 │       ├── README.md
 │       ├── plan-1.md
@@ -87,12 +79,21 @@ research repo
 │   ├── README.md
 │   ├── eMachPrivate/ (git submodule)
 │   │   └──eMach/ (git submodule)
-│   ├── model-1/ (often FEA, but could be analytic or other)
+│   ├── model-type-1/ (often FEA, but could be analytic or other)
 │   │   ├── README.md
 │   │   ⋮
 │   │   └── ...
 │   ⋮
-│   └── model-x/
+│   ├── model-type-x/
+│   └── simulink/
+│       ├── README.md 
+│       ├── control-sim-1/ (often used to autogen code)
+│       │   ├── README.md
+│       │   ├── control-sim-1.slx
+│       │   ⋮
+│       ⋮
+│       ├── control-sim-x/
+│       └── elev-control-lib/ (git submodule)
 │
 ├── project-sponsor-documents/ (highly dependent on project)
 │   ├── README.md
