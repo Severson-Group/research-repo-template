@@ -4,8 +4,8 @@ This document describes the recommended implementation of using GitHub to manage
 
 ## Table of Contents <!-- omit from toc -->
 
-- [1. File Structure and Conventions](#1-file-structure-and-conventions)
-  - [File Structure](#file-structure)
+- [1. Structure and Naming Conventions](#1-structure-and-naming-conventions)
+  - [Folder Structure](#folder-structure)
     - [File Naming](#file-naming)
     - [Large Files](#large-files)
 - [2. GitHub Project Boards Rationale](#2-github-project-boards-rationale)
@@ -21,9 +21,11 @@ This document describes the recommended implementation of using GitHub to manage
   - [4.2 Meetings](#42-meetings)
 - [5. Create a New Project](#5-create-a-new-project)
 
-## 1. File Structure and Conventions
+## 1. Structure and Naming Conventions
 
-### File Structure
+### Folder Structure
+
+**See [repo-structure.md](repo-structure.md) for a complete map of the recommended folder structure.**
 
 Every folder should have a `README.md` file that acts like a landing page for that folder and explains its contents.
 
