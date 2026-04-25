@@ -40,46 +40,46 @@ All directories should contain a README file. Refer to the [research-repo-templa
 ```
 research repo
 │
-├── README.md (repo landing page)
-├── firmware/ (archive of control algorithms and code)
+├── README.md       (repo landing page)
+├── firmware/       (archive of control algorithms and code)
 │   ├── README.md
-│   ├── AMDC-Firmware/ (git submodule)
-│   ├── project-firmware (AMDC firmware for this project)
-│   │   ├── ldscript.ld
-│   │   ├── Xilinx.spec
-│   │   └── usr/
-│   │       ├── blink/
-│   │       ├── usr-app-1/
-│   │       ⋮
-│   │       └── usr-app-x/
-│   └── jupyter/ (collection of notebooks to operate AMDC)
+│   ├── AMDC-Firmware/      (git submodule)
+│   ├── jupyter/            (collection of notebooks to operate AMDC)
+│   └── project-firmware    (AMDC firmware for this project)
+│       ├── ldscript.ld
+│       ├── Xilinx.spec
+│       └── usr/
+│           ├── blink/
+│           ├── usr-app-1/
+│           ⋮
+│           └── usr-app-x/
 │
-├── experiments/ (optionally organized into subfolders, e.g. per prototype, round of experiment, project phase)
+├── experiments/    (optionally organized into subfolders, e.g. per prototype, round of experiment, project phase)
 │   ├── README.md
 │   ├── instrumentation/
-│   │   ├── README.md (documenting overall setup, room layout, etc.)
+│   │   ├── README.md       (documenting overall setup, room layout, etc.)
 │   │   ├── connection-schematic.svg
 │   │   ├── ground-schematic.svg
-│   │   ├── equipment-1/ 
-│   │   │   ├── README.md (emphasizing any customization for project)
-│   │   │   └── procurement/ (optional, only when it makes sense)
+│   │   ├── equipment-1/    (optional)
+│   │   │   ├── README.md       (emphasizing any customization for project)
+│   │   │   └── procurement/    (rarely needed, only when unique purchases made)
 │   │   ⋮
 │   │   └── equipment-x/
-│   ├── results/
-│   │   └── README.md (e.g., where lab notebook & data is stored, list relevant reports)
-│   ├── jupyter/ (collection of notebooks to run experiments)
-│   └── test-plans/
+│   ├── results/            (link resuts to plans, notebooks, firmware)
+│   │   └── README.md           (e.g., where lab notebook & data is stored, list relevant reports)
+│   ├── jupyter/            (notebooks to run experiments)
+│   └── test-plans/         (detailed procedures, independent of prototype)
 │       ├── README.md
 │       ├── plan-1.md
 │       ├── plan-2.md
 │       ⋮
 │       └── plan-x.md
 │
-├── modeling/ (archive of models developed in the research)
+├── modeling/       (archive of models developed in the research)
 │   ├── README.md
-│   ├── eMachPrivate/ (git submodule)
+│   ├── eMachPrivate/       (git submodule)
 │   │   └──eMach/ (git submodule)
-│   ├── model-type-1/ (often FEA, but could be analytic or other)
+│   ├── model-type-1/       (often FEA, but could be analytic or other)
 │   │   ├── README.md
 │   │   ⋮
 │   │   └── ...
@@ -87,55 +87,55 @@ research repo
 │   ├── model-type-x/
 │   └── simulink/
 │       ├── README.md 
-│       ├── control-sim-1/ (often used to autogen code)
+│       ├── control-sim-1/      (often used to autogen code)
 │       │   ├── README.md
 │       │   ├── control-sim-1.slx
 │       │   ⋮
 │       ⋮
 │       ├── control-sim-x/
-│       └── elev-control-lib/ (git submodule)
+│       └── elev-control-lib/   (git submodule)
 │
-├── project-sponsor-documents/ (highly dependent on project)
+├── project-sponsor-documents/  (highly dependent on project)
 │   ├── README.md
-│   ├── annual-reports/ (depending on the project)
+│   ├── annual-reports/
 │   │   ├── 2025/
 │   │   ⋮   
 │   │   └── 20xx/
 │   └── proposal/ 
 │
-├── prototypes/ (archive of prototypes designs used in the project)
-│   ├── power-electronics/ (or, locate in instrumentation)
-│   │   ├── README.md (include connection tables)
+├── prototypes/     (design archive of prototypes used in the project)
+│   ├── power-electronics/      (or locate in instrumentation)
+│   │   ├── README.md               (include connection tables)
 │   │   ├── connection-schematic.svg
 │   │   └── ... (follow other prototype folders' structure) 
 │   ├── prototype-1-name/
-│   │   ├── README.md (landing page for key information on the prototype, often includes nameplate)
+│   │   ├── README.md               (prototype overview, often includes nameplate)
 │   │   ├── cad/
-│   │   │   ├── README.md (includes revision table, design history, and SolidWorks version used)
-│   │   │   ├── part.sldprt (optionally sorted into folders)
-│   │   │   ├── assy.sldasm (optionally sorted into folders)
+│   │   │   ├── README.md           (include revision table, design history, and SolidWorks version used)
+│   │   │   ├── part.sldprt         (optionally sorted into folders)
+│   │   │   ├── assy.sldasm         (optionally sorted into folders)
 │   │   │   ├── drawings/
 │   │   │   │   ├── *.sldrw
 │   │   │   │   └── *.pdf
-│   │   │   └── hardware/ (standard, off-the-shelf parts like bolts, nuts, sensors)
+│   │   │   └── hardware/           (standard, off-the-shelf parts like bolts, nuts, sensors)
 │   │   │       ├── *.sldprt
 │   │   │       └── *.step
 │   │   └── procurement/
-│   │       ├── README.md (include table summarizing all orders)
+│   │       ├── README.md           (include table summarizing all orders)
 │   │       ├── bom.csv 
-│   │       ├── major-component-1/ (rename based on component)
-│   │       │   ├── README.md (summarizes specification and results of quoting process, links to key files)
+│   │       ├── major-component-1/  (rename based on component)
+│   │       │   ├── README.md       (summarize specification, results of quoting process, links to key files)
 │   │       │   ├── quote-1.pdf
 │   │       │   ├── quote-2.pdf
 │   │       │   ├── quote-3.pdf
-│   │       │   └── fabrication-files/ (files sent to vendor for these quotes)
+│   │       │   └── fab-files/      (files sent to vendor for these quotes)
 │   │       │       ├── *.stl
 │   │       │       ├── *.step
 │   │       │       └── *.dxf
-│   │       └── major-component-2/ (rename based on component)
-│   │           ├── README.md (summarizes specification and results of quoting process, links to key files)
+│   │       └── major-component-2/
+│   │           ├── README.md
 │   │           ├── quote.pdf
-│   │           └── fabrication-files/ (files sent to vendor for these quotes)
+│   │           └── fab-files/
 │   │               ├── *.stl
 │   │               ├── *.step
 │   │               └── *.dxf
@@ -145,17 +145,17 @@ research repo
 │   ⋮   
 │   ├── prototype-x-name/
 │   │   └── ...
-│   └── shared-components (components used in multiple prototypes)
-│       ├── README.md (table indicating which prototypes use each component)
+│   └── shared-components       (components used in multiple prototypes)
+│       ├── README.md               (include table indicating which prototypes use each component)
 │       ├── component-1-name/
-│       │   └── ... (same as prototype folders)
+│       │   └── ...                 (same as prototype folders)
 │       ⋮
 │       └── component-x-name/
 │
-├── publications/ (archive of publications)
+├── publications/           (archive of publications)
 │   ├──ECCE2025/
 │   │   ├── digest/
-│   │   │   ├── README.md (use publication template)
+│   │   │   ├── README.md       (use publication template)
 │   │   │   └── images/
 │   │   │       ├── flowchart.svg 
 │   │   │       ├── pareto-front.svg
@@ -172,11 +172,12 @@ research repo
 │   ⋮
 │   └──CONFYEAR/
 │
-└── reports/ (archive of engineering reports)
+└── reports/        (archive of engineering reports)
     ├── report-1-name/
-    │   ├── README.md (use report template)
+    │   ├── README.md       (use report template)
     │   ├── optional-file.pdf
-    │   └── images/ (optional)
+    │   ├── optional-notebook.ipynb    
+    │   └── images/         (optional)
     │       ├── fun-fig-1.svg
     │       ├── fun-fig-2.svg
     │       └── ...
