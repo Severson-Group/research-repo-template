@@ -80,7 +80,7 @@ research repo
 │   ├── eMachPrivate/       (git submodule)
 │   │   └──eMach/ (git submodule)
 │   ├── model-type-1/       (often FEA, but could be analytic or other)
-│   │   ├── README.md
+│   │   ├── README.md       (contents and optional nomenclature table)
 │   │   ⋮
 │   │   └── ...
 │   ⋮
@@ -115,7 +115,7 @@ research repo
 │   │   │   ├── part.sldprt         (optionally sorted into folders)
 │   │   │   ├── assy.sldasm         (optionally sorted into folders)
 │   │   │   ├── drawings/
-│   │   │   │   ├── *.sldrw
+│   │   │   │   ├── *.slddrw
 │   │   │   │   └── *.pdf
 │   │   │   └── hardware/           (standard, off-the-shelf parts like bolts, nuts, sensors)
 │   │   │       ├── *.sldprt
@@ -128,17 +128,12 @@ research repo
 │   │       │   ├── quote-1.pdf
 │   │       │   ├── quote-2.pdf
 │   │       │   ├── quote-3.pdf
-│   │       │   └── fab-files/      (files sent to vendor for these quotes)
-│   │       │       ├── *.stl
-│   │       │       ├── *.step
-│   │       │       └── *.dxf
+│   │       │   ├── fabrication/    (files sent to vendor for these quotes)
+│   │       │   │   ├── *.stl
+│   │       │   │   ├── *.step
+│   │       │   │   └── *.dxf
+│   │       │   └── msc/            (optional, e.g., data sheets or manuals)
 │   │       └── major-component-2/
-│   │           ├── README.md
-│   │           ├── quote.pdf
-│   │           └── fab-files/
-│   │               ├── *.stl
-│   │               ├── *.step
-│   │               └── *.dxf
 │   ├── prototype-2-name/
 │   │   ├── README.md 
 │   │   └── ...
