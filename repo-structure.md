@@ -37,7 +37,7 @@ Since the nature of research is "to do the unexpected," deviations from the [Rec
 
 All directories should contain a README file. Refer to the [research-repo-template](https://github.com/Severson-Group/research-repo-template) folders detailed explanations of individual files/folders.
 
-```
+```markdown
 research repo
 │
 ├── README.md       (repo landing page)
@@ -45,7 +45,7 @@ research repo
 │   ├── README.md
 │   ├── AMDC-Firmware/      (git submodule)
 │   ├── jupyter/            (collection of notebooks to operate AMDC)
-│   └── project-firmware    (AMDC firmware for this project)
+│   └── project-firmware/    (AMDC firmware for this project)
 │       ├── ldscript.ld
 │       ├── Xilinx.spec
 │       └── usr/
@@ -87,12 +87,12 @@ research repo
 │   ├── model-type-x/
 │   └── simulink/
 │       ├── README.md 
-│       ├── control-sim-1/      (often used to autogen code)
+│       ├── control_sim_1/      (often used to autogen code)
 │       │   ├── README.md
-│       │   ├── control-sim-1.slx
+│       │   ├── control_sim_1.slx
 │       │   ⋮
 │       ⋮
-│       ├── control-sim-x/
+│       ├── control_sim_x/
 │       └── elev-control-lib/   (git submodule)
 │
 ├── project-sponsor-documents/  (highly dependent on project)
@@ -140,7 +140,7 @@ research repo
 │   ⋮   
 │   ├── prototype-x-name/
 │   │   └── ...
-│   └── shared-components       (components used in multiple prototypes)
+│   └── shared-components/       (components used in multiple prototypes)
 │       ├── README.md               (include table indicating which prototypes use each component)
 │       ├── component-1-name/
 │       │   └── ...                 (same as prototype folders)
