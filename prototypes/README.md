@@ -39,7 +39,7 @@ Note that our guidelines for creating the prototypes folder have evolved over ti
 
 ## Related Issues / PRs
 
-*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+_Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article._
 
 - _Issue #1: Prepare to build test stand <-- make this a link to the relevant issue_
 - _Issue #2: Compile set of manufacturing constraints for prototype <-- make this a link to the relevant issue_

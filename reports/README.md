@@ -38,7 +38,7 @@ Note that our guidelines for creating reports have evolved over time. Some of th
 
 ## Related Issues / PRs
 
-*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+_Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article._
 
 - _Issue #12: Determine kt and ke <-- make this a link to the relevant issue_
 - _Issue #14: Create report on 3D FEA model results <-- make this a link to the relevant issue_

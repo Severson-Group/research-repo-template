@@ -37,7 +37,7 @@ Note that our guidelines for creating modeling folders have evolved over time. S
 
 ## Related Issues / PRs
 
-*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+_Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article._
 
 - _Issue #7: Create and exercise detailed 3D JMAG models of prototype <-- make this a link to the relevant PR_
 - _Issue #9: Characterize the design space with eMach <-- make this a link to the relevant issue_
