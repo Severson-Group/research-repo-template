@@ -33,6 +33,6 @@ Note that our guidelines for creating project sponsor document folders have evol
 
 ## Related Issues / PRs
 
-*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+_Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article._
 
 - _Issue #17: New statement of work goal <-- make this a link to the relevant issue_

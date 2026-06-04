@@ -37,6 +37,6 @@ Note that our guidelines for creating publications folders have evolved over tim
 
 ## Related Issues / PRs
 
-*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+_Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article._
 
 - _Issue #42: Archive all research material for publication xxxx and create `README.md` <-- make this a link to the relevant PR_

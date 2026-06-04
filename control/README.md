@@ -38,7 +38,7 @@ Note that our guidelines for creating control folders have evolved over time. So
 
 ## Related Issues / PRs
 
-*Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article.*
+_Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article._
 
 - _Issue #18: Simulate machine under load <-- make this a link to the relevant issue_
 - _Issue #19: Order PCBs <-- make this a link to the relevant PR_
