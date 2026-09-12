@@ -35,7 +35,7 @@ Since the nature of research is "to do the unexpected," deviations from the [Rec
 
 ## Recommended Repo Structure
 
-All directories should contain a README file. Refer to the [research-repo-template](https://github.com/Severson-Group/research-repo-template) folders detailed explanations of individual files/folders.
+All research repositories should use the following folder structure[^1]:
 
 ```markdown
 research repo
@@ -180,6 +180,10 @@ research repo
     ⋮
     └── report-x-name/
 ```
+
+All directories should contain a README file landing page. Refer to the [research-repo-template](https://github.com/Severson-Group/research-repo-template) folders detailed explanations of individual files/folders.
+
+[^1]: Hint: you can easily generate the plaintext folder structures like this using online tools such as [tree.nathanfriend.com](https://tree.nathanfriend.com/).
 
 ## Related Issues / PRs
 
