@@ -14,8 +14,8 @@ This document describes the recommended implementation of using git and GitHub t
   - [4.1 Basic Git Usage](#41-basic-git-usage)
   - [4.2 Submodules](#42-submodules)
 - [5. Markdown Development Settings](#5-markdown-development-settings)
-  - [5.1 Visual Studio Code markdownlint Extension Instructions](#51-visual-studio-code-markdownlint-extension-instructions)
-  - [5.2 Renaming Files in Visual Studio Code](#52-renaming-files-in-visual-studio-code)
+  - [5.1 Visual Studio Code markdownlint Extension](#51-visual-studio-code-markdownlint-extension)
+  - [5.2 Managing Markdown Links in VS Code](#52-managing-markdown-links-in-vs-code)
 - [6. Python Usage](#6-python-usage)
   - [6.1 Initial Setup](#61-initial-setup)
   - [6.2 Activating the Environment \& VS Code Configuration](#62-activating-the-environment--vs-code-configuration)
@@ -37,7 +37,6 @@ To set up a new repository using this system, do the following:
       2. Do a find and replace for `this-repo-name`, replacing it with the name of this repo.
       3. Replace Section 2 with a `## 2. Project Description` section.
       4. Replace Section 3 with the [Section 3 template](#template-for-research-repo-section-3) below.
-      5. Delete Section 4.
    3. Delete `github-project-management.md` and `repo-structure.md`
    4. Optionally, delete all subfolders.
 3. In the GitHub settings for the new repo, turn on branch protection rules for `main` by going to settings -> `Branches` -> `Add rule` -> `Branch name pattern` set to `main` and check `Require a pull request before merging`, `Dismiss stale...`, `Require... codeowners`.
@@ -117,9 +116,9 @@ This will update each submodule to the latest commit on the branch specified in 
 
 ## 5. Markdown Development Settings
 
-Configure your tools to help you be successful in writing Markdown Docs. [Visual Studio Code](https://code.visualstudio.com/) is highly recommended and the eLev Lab has a [KnowledgeBase Aricle on configuring and selecting extensions for VS Code](https://github.com/Severson-Group/KnowledgeBase/blob/main/tools/VS_Code.md).
+Configure your tools to help you be successful in writing Markdown Docs. [Visual Studio Code](https://code.visualstudio.com/) is highly recommended and the eLev Lab has a [KnowledgeBase Article on configuring and selecting extensions for VS Code](https://github.com/Severson-Group/KnowledgeBase/blob/main/tools/VS_Code.md).
 
-### 5.1 Visual Studio Code markdownlint Extension Instructions
+### 5.1 Visual Studio Code markdownlint Extension
 
 Use the `markdownlint` extension in VS Code (Extension ID `DavidAnson.vscode-markdownlint`).
 
@@ -127,25 +126,25 @@ Use the `markdownlint` extension in VS Code (Extension ID `DavidAnson.vscode-mar
 
 For optimal lint configuration, use the [`.markdownlint.json`](./.markdownlint.json) file. This file contains four key settings:
 
-- `"MD013": false`: disables line-length rule, preventing warnings from appearing when our line length is over 80 characters.
-- `"MD033": false`: disables no-inline-html rule. This disables warnings when we embed images using html, which is very convienent.
-- `"MD049": { "style": "underscore" }`: use `_` character to italicize text (not `*`)
-- `"MD050": { "style": "asterisk" }`: use `*` character to bold text (not `_`)
+- `"MD013": false`: disables the line-length rule, preventing warnings when lines exceed 80 characters.
+- `"MD033": false`: disables the no-inline-html rule, allowing us to embed images using HTML.
+- `"MD049": { "style": "underscore" }`: enforces the `_` character to italicize text.
+- `"MD050": { "style": "asterisk" }`: enforces the `*` character to bold text.
 
-#### Periodically check for lint errors in the repo <!-- omit from toc --> 
+#### Periodically Check for Lint Errors <!-- omit from toc -->
 
-To do this:
+To run a repository-wide check for formatting errors:
 
-1. Open the Command Pallet in VS Code: `Ctrl+Shift+P` on Windows/Linux or `Cmd+Shift+P` on Mac.
-2. Start typing `markdownlint` and look for `markdownlint: Lint all Markdown files in the workspace with markdownlint` in the filtered list.
-3. Click it or highlight it and press Enter.
-4. On the bottom, inspect the `Problems` pane. Double click on each item to be taken to the problem location to fix it.
+1. Open the Command Palette in VS Code: `Ctrl+Shift+P` on Windows/Linux or `Cmd+Shift+P` on Mac.
+2. Type `markdownlint` and select `markdownlint: Lint all Markdown files in the workspace with markdownlint`.
+3. Inspect the `Problems` pane at the bottom of the screen. Double-click on any item to jump directly to the file and line to fix it.
 
-### 5.2 Renaming Files in Visual Studio Code
+### 5.2 Managing Markdown Links in VS Code
 
-Use [`.vscode/settings.json`](.vscode/settings.json) file. Among other things, this file sets up VS Code detect if you rename a file or folder _in VS Code_ that breaks a Markdown link. If this is detected, VS Code offers to fix the links for you.
+We use the [`.vscode/settings.json`](.vscode/settings.json) file to automate link management across our repositories by configuring these two VS Code settings:
 
-For this to work, the file or folder must have been renamed within VS Code.
+1. **Auto-Updating Links:** By configuring `markdown.updateLinksOnFileMove.enabled: prompt`, VS Code will detect if you rename or move a file/folder within the VS Code explorer and automatically offer to fix any Markdown links pointing to it.
+2. **Finding Broken Links:** By configuring `markdown.validate.fileLinks.enabled: warning`, VS Code will constantly scan your markdown files for broken local file paths. Any dead links will automatically appear in your `Problems` pane alongside your linting errors.
 
 ## 6. Python Usage
 
