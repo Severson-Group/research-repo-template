@@ -1,6 +1,6 @@
 # Results <!-- omit from toc -->
 
-**Project experimental results.**
+**Approach to organizing project experimental results.**
 
 ## Table of Contents <!-- omit from toc -->
 
