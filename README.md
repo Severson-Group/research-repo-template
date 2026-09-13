@@ -1,10 +1,10 @@
 # Template Research Repository <!-- omit from toc -->
 
-This document describes the recommended implementation of using git and GitHub to manage our group's research projects.
+This repository documents a complete system for using git and GitHub to manage a research project.
 
 ## Table of Contents <!-- omit from toc -->
 
-- [1. Purpose of Document](#1-purpose-of-document)
+- [1. Purpose of Repository](#1-purpose-of-repository)
 - [2. How to Create New Research Repositories From This Template](#2-how-to-create-new-research-repositories-from-this-template)
 - [3. GitHub Projects, Repo Structure, and Naming Conventions](#3-github-projects-repo-structure-and-naming-conventions)
   - [3.1 GitHub Usage](#31-github-usage)
@@ -22,7 +22,7 @@ This document describes the recommended implementation of using git and GitHub t
   - [6.3 Updating the Environment](#63-updating-the-environment)
 - [7. Related Issues / PRs](#7-related-issues--prs)
 
-## 1. Purpose of Document
+## 1. Purpose of Repository
 
 This repository is intended to document the [eLev Lab](https://elev.umn.edu/) approach to using git and GitHub to manage research projects. The repository also serves as a template that can be cloned to create new project repositories.
 
