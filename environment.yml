@@ -12,6 +12,8 @@ dependencies:
 
 # --- Optional / Project-Specific Packages ---
   # - pygmo
+  # - pathlib
+  # - collections
   # - sphinx
   # - sphinx_rtd_theme
 
