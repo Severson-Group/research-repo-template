@@ -1,0 +1,24 @@
+name: this-repo-name # Convention: Use the exact repository name
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+# Core eLev Lab lab suite of packages
+  - python>=3.10
+  - matplotlib
+  - numpy
+  - scipy
+  - pandas
+
+# --- Optional / Project-Specific Packages ---
+  # - pygmo
+  # - sphinx
+  # - sphinx_rtd_theme
+
+# --- PIP Dependencies ---
+  # CAUTION: Install packages via conda-forge if possible.
+  # Only use pip for packages that are strictly unavailable on Conda,
+  # as mixing them can cause binary dependency conflicts.
+  # - pip
+  # - pip:
+  #   - pyfemm
