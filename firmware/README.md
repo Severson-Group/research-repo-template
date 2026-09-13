@@ -6,7 +6,7 @@
 
 - [Purpose of Document](#purpose-of-document)
 - [Folder Contents](#folder-contents)
-- [How to Create a Control Subfolder](#how-to-create-a-control-subfolder)
+- [How to Create a Firmware Subfolder](#how-to-create-a-firmware-subfolder)
 - [Examples](#examples)
 - [Related Issues / PRs](#related-issues--prs)
 
