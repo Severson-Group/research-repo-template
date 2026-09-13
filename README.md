@@ -20,6 +20,7 @@ This document describes the recommended implementation of using git and GitHub t
   - [6.1 Initial Setup](#61-initial-setup)
   - [6.2 Activating the Environment \& VS Code Configuration](#62-activating-the-environment--vs-code-configuration)
   - [6.3 Updating the Environment](#63-updating-the-environment)
+- [7. Related Issues / PRs](#7-related-issues--prs)
 
 ## 1. Purpose of Document
 
@@ -37,6 +38,7 @@ To set up a new repository using this system, do the following:
       2. Do a find and replace for `this-repo-name`, replacing it with the name of this repo.
       3. Replace Section 2 with a `## 2. Project Description` section.
       4. Replace Section 3 with the [Section 3 template](#template-for-research-repo-section-3) below.
+      5. Delete the contents of [Section 7](#7-related-issues--prs) (leave it empty).
    3. Delete `github-project-management.md` and `repo-structure.md`
    4. Optionally, delete all subfolders.
 3. In the GitHub settings for the new repo, turn on branch protection rules for `main` by going to settings -> `Branches` -> `Add rule` -> `Branch name pattern` set to `main` and check `Require a pull request before merging`, `Dismiss stale...`, `Require... codeowners`.
@@ -150,7 +152,7 @@ We use the [`.vscode/settings.json`](.vscode/settings.json) file to automate lin
 
 To use the repo's Python code (scripts and juypter notebooks), all users should install [Anaconda](https://www.anaconda.com/download) or [Miniconda](https://www.anaconda.com/docs/getting-started/concepts/anaconda-or-miniconda).
 
-Maintain a conda environment for the repo that can has the necessary packages for to use all the of the Python code in the project. Do this by maintaining an [`environment.yml`](environment.yml) file.
+Maintain a conda environment for the repo that can has the necessary packages for to use all the of the Python code in the project. Do this by maintaining an [`environment.yml`](environment.yml) file. See our [Knowledgebase article on conda environments](https://github.com/Severson-Group/KnowledgeBase/blob/main/code/python/README.md#environments).
 
 ### 6.1 Initial Setup
 
@@ -192,3 +194,8 @@ If you want to update all existing packages within your active environment to th
 ```bash
 conda update --all
 ```
+
+## 7. Related Issues / PRs
+
+- [PR #25: Update instruction on how to use GitHub for research](https://github.com/Severson-Group/research-repo-template/pull/25)
+- [Issue #49: Clean up research repo main README](https://github.com/Severson-Group/research-repo-template/issues/49)
