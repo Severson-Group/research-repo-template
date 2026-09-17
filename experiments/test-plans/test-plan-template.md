@@ -85,7 +85,7 @@ _**Brief overview of how to analyze and interpret the data** obtained from the t
 
 ### 5.2 Success Criteria
 
-_**How to know if the test was successful / whether we can trust the data**. Depending on the test, this can be easy to articulate ("thermal equilibrium reached within one hour"; or, "balanced torque vs rotor position approximates FEA results documented report xxxx Fig. 2") or challenging. Again, keep this brief (2 - 3 sentences) and along the lines of a sanity check._
+_**How to know if the test was successful / whether we can trust the data**. Depending on the test, this can be easy to articulate ("thermal equilibrium reached within one hour"; or, "torque vs rotor position approximates FEA results documented report xxxx Fig. 2") or challenging. Again, keep this brief (2 - 3 sentences) and along the lines of a sanity check._
 
 ## 6. Related Tests from Previous Projects
 
