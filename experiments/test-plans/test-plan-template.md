@@ -41,58 +41,58 @@ Key links:
 
 ### 2.1 Risk Levels
 
-_State whether the electrical hazard is low, medium, or high risk, according to [this table](https://docs.google.com/presentation/d/1bF_Lsw4f45h2ZfhxKL6wHZyp7JDuLXzI8HSQxaIIn4Y/edit?slide=id.g32f6d5ce020_2_53#slide=id.g32f6d5ce020_2_53). Include what training is required for the stated risk level._
+_**State whether the electrical hazard is low, medium, or high risk**, according to [this table](https://docs.google.com/presentation/d/1bF_Lsw4f45h2ZfhxKL6wHZyp7JDuLXzI8HSQxaIIn4Y/edit?slide=id.g32f6d5ce020_2_53#slide=id.g32f6d5ce020_2_53). Include what training is required for the stated risk level._
 
 ### 2.2 Additional Safety Instructions
 
-_Include any additional safety instructions or precautions that should be followed which are not covered by the material listed above._
+_**Include any additional safety instructions** or precautions that should be followed which are not covered by the material listed above._
 
 ## 3. Required Equipment
 
 ### 3.1 Equipment list
 
-_Bullet list of equipment required to perform the test._
+_**Bullet list of equipment** required to perform the test._
 
 ### 3.2 Special Considerations
 
-_Bullet list of any important considerations to keep in mind when performing the test, such as methods to avoid damaging the equipment._
+_**Bullet list of any important considerations** when performing the test, such as wiring / gaurding / fixturing to avoid damaging the equipment._
 
 ## 4. Test Plan
 
 ### 4.1 Measurement Configuration
 
-_Include a schematic that illustrates the connection of this test's required equipment._
+_**Include a schematic that illustrates the connection of this test's required equipment.** The source of this image must be shared with the team so that it can be easily revised. Preferred methods: 1) an SVG committed directly into the repo; 2) a webp file generated from a Google Drawing that is stored in the Shared Google Drive at `experiments/test-plans/images` -- provide a link to the source in the figure capton._
 
-_Bullet list of planned physical quantities to measure and the measurement equipment required to measure each of them._
+_**Bullet list of planned physical quantities** to measure and the measurement equipment required to measure each of them._
 
 ### 4.2 Procedure
 
-_Numbered list of steps required for carrying out this test. Keep it brief and focused on the narrative of steps need to be done to make the measurement. Save detailed instructions for configuring settings in the test equipment for [4.3 Instrument Configuration Instructions](#43-instrument-configuration-instructions)._
+_**Numbered list of steps** required for carrying out this test. Keep it brief and focused on the narrative of steps need to be done to make the measurement. Save detailed instructions for configuring settings in the test equipment for [4.3 Instrument Configuration Instructions](#43-instrument-configuration-instructions)._
 
 ### 4.3 Instrument Configuration Instructions
 
-_Provide instructions (or links to instructions / manuals) on how to configure the test equipment. Favor brevity. Don't waste time/space on describing "obvious" settings that every researcher in the lab should know (i.e., don't describe nuanced menu steps to configure the oscilloscope trigger for a standard measurement like 3 phase currents, but if an unconventional trigger setting is important to describe how to set that up). When possible, point readers to a relevant section in a user manual instead of retyping the steps from the manual. Link to other relavent markdown docs, articles, manuals, etc._
+_**Instructions** (or links to instructions / manuals) **on how to configure the test equipment.** Favor brevity. Don't waste time/space on describing "obvious" settings that every researcher in the lab should know (i.e., don't describe nuanced menu steps to configure the oscilloscope trigger for a standard measurement like 3 phase currents, but if an unconventional trigger setting is important to describe how to set that up). When possible, point readers to a relevant section in a user manual instead of retyping the steps from the manual. Link to other relavent markdown docs, articles, manuals, etc._
 
 ### 4.4 Data to be Collected
 
-_Bullet list of data that should be saved from the test._
+_**Bullet list of data** that should be saved from the test._
 
 ## 5. Analysis
 
 ### 5.1 Post Processing Data
 
-_Provide a brief overview of how to analyze and interpret the data obtained from the test. For example, if the goal of the test is to measure the torque constant $k_\mathrm{t}$ and your procedure tells us to record phase currents at different torque points, you might tell us how to calculate $i_\mathrm{q}$ from your phase currents or to make a plots of torque vs phase current amplitude. Don't get overly detailed; save that for your test report._
+_**Brief overview of how to analyze and interpret the data** obtained from the test. For example, if the goal of the test is to measure the torque constant $k_\mathrm{t}$ and your procedure tells us to record phase currents at different torque points, you might tell us how to calculate $i_\mathrm{q}$ from your phase currents or to make a plots of torque vs phase current amplitude. Don't get overly detailed; save that for your test report._
 
 ### 5.2 Success Criteria
 
-_Indicate how to know if the test was successful / whether we can trust the data. Depending on the test, this can be easy to articulate ("thermal equilibrium reached within one hour"; or, "balanced torque vs rotor position approximates FEA results documented report xxxx Fig. 2") or challenging. Again, keep this brief (2 - 3 sentences) and along the lines of a sanity check._
+_**How to know if the test was successful / whether we can trust the data**. Depending on the test, this can be easy to articulate ("thermal equilibrium reached within one hour"; or, "balanced torque vs rotor position approximates FEA results documented report xxxx Fig. 2") or challenging. Again, keep this brief (2 - 3 sentences) and along the lines of a sanity check._
 
 ## 6. Related Tests from Previous Projects
 
-_Bullet list of links to similar tests that were conducted as part of other projects to help plan this test._
+_**Bullet list of links to similar tests** that were conducted as part of other projects to help plan this test._
 
 ## 7. Related Issues / PRs
 
-_Bullet list of all relevant issues to facilitate future readers in learning more about the material of the article._
-
-- [Issue #559: Create test specifications for P9 and BP9 at MERL](https://github.com/Severson-Group/nsf_pfi_bearingless/issues/559)
+- [Issue #53: Create instructions on drafting test plans](https://github.com/Severson-Group/research-repo-template/issues/53)
+- [Issue #51: Create instructions on how to archive test data, analysis scripts, and final reports](https://github.com/Severson-Group/research-repo-template/issues/51)
+- [Issue PFI#617: Create a template for detailed test plans](https://github.com/Severson-Group/nsf_pfi_bearingless/issues/617)
