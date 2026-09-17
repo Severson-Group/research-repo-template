@@ -24,7 +24,7 @@
 
 ## 1. Purpose of Document
 
-The purpose of this article is to document the detailed test procedure for the _[INSERT: brief description of the test]_ test. _[INSERT: optional additional sentence about why this test is being conducted (because the project requires it? for a paper?)]_.
+The purpose of this article is to document the detailed test procedure for the _[INSERT: brief description of the test]_ test. _[INSERT: optional additional sentence about why this test is being conducted (what high level thing does it allow one to learn about the prototype?)]_.
 
 ## 2. Safety Instructions
 
