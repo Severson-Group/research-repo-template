@@ -81,7 +81,7 @@ _**Bullet list of data** that should be saved from the test._
 
 ### 5.1 Post Processing Data
 
-_**Brief overview of how to analyze and interpret the data** obtained from the test. For example, if the goal of the test is to measure the torque constant $k_\mathrm{t}$ and your procedure tells us to record phase currents at different torque points, you might tell us how to calculate $i_\mathrm{q}$ from your phase currents or to make a plots of torque vs phase current amplitude. Don't get overly detailed; save that for your test report._
+_**Brief overview of how to analyze and interpret the data** obtained from the test. For example, if the goal of the test is to measure the torque constant_ $k_\mathrm{t}$ _and your procedure tells us to record phase currents at different torque points, you might tell us how to calculate_ $i_\mathrm{q}$ _from your phase currents or to make a plots of torque vs phase current amplitude. Don't get overly detailed; save that for your test report._
 
 ### 5.2 Success Criteria
 
