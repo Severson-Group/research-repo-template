@@ -29,7 +29,7 @@ Check the latest version of our [research-repo-template](https://github.com/Seve
 ## Examples
 
 - [nsf_pfi_bearingless repo](https://github.com/Severson-Group/nsf_pfi_bearingless/tree/main/prototypes)
-- [sandia_sco2 repo](https://github.com/Severson-Group/sandia_sco2/tree/main/Prototypes)
+- [sandia_sco2 repo](https://github.com/Severson-Group/sandia_sco2/tree/main/prototypes)
 
 Note that our guidelines for creating the prototypes folder have evolved over time. Some of these example reports may have been created based on earlier guidelines.
 
