@@ -73,29 +73,31 @@ The team uses the Shared Google Drive as the archive of all raw data files, as o
 .
 └── experiments/
     └── results/
-        ├── lab-notebooks/
-        │   ├── active/         in-progress lab notebooks, team has full access
-        │   └── archive/        previous lab notebooks, team has read-only access
-        └── data/
-            ├── active/         in progress data collection
-            │   ├── bp9/
-            │   │   └── [Test Name]/
-            │   │       ├── [YYYY]-[MM]-[DD]-run-01/
-            │   │       ├── [YYYY]-[MM]-[DD]-run-02/
-            │   │       └── [YYYY]-[MM]-[DD]-run-03/
-            │   └── p9/
-            │       └── [Test Name]/
-            │           ├── [YYYY]-[MM]-[DD]-run-01/
-            │           └── ...
-            └── archive/          data is moved here when each test is done
-                ├── bp9/
-                │   └── [Test Name]/
-                │       ├── [YYYY]-[MM]-[DD]-run-01/
-                │       └── ...
-                └── p9/
-                    └── [Test Name]/
-                        ├── [YYYY]-[MM]-[DD]-run-01/
-                        └── ...
+        ├── bp9/        prototype name    
+        │   ├── lab-notebooks/
+        │   │   ├── active/         in-progress lab notebooks, team has full access
+        │   │   │   └── [YYYY]/
+        │   │   └── archive/        previous lab notebooks, team has read-only access
+        │   │       └── [YYYY]/
+        │   └── data/
+        │       ├── active/         in progress data collection
+        │       │   └── [Test Name]/
+        │       │       ├── [YYYY]-[MM]-[DD]-run-01/
+        │       │       ├── [YYYY]-[MM]-[DD]-run-02/
+        │       │       └── [YYYY]-[MM]-[DD]-run-03/
+        │       └── archive/        data is moved here when each test is done
+        │           └── [Test Name]/
+        │               ├── [YYYY]-[MM]-[DD]-run-01/
+        │               └── ...
+        ├── p9/          next prototype
+        │   ├── lab-notebooks/
+        │   │   ├── active/
+        │   │   └── archive/
+        │   └── data/
+        │       ├── active/
+        │       └── archive/
+        .
+        .
 ```
 
 For each date of data collection, start with `run-01`. Larger run numbers are only used when there are multiple runs of the same test on the same day.
@@ -117,7 +119,7 @@ This is used to manage file access permissions so that the full team has access 
   - or a new year begins
   - or the team alerts the PI that a folder/file is finalized and should be made read-only
 
-Moving from active to archive can be done incrementally (i.e., a single day's worth of tests can be moved) while an analysis Google Sheet stays in the active folder or can be done as a final batch of all files for a single test. Best practice is to move archived data as soon as it is final.
+Moving from active to archive can be done incrementally (i.e., a single day's worth of tests can be moved) while an analysis Google Sheet stays in the active folder or can be done as a final batch of all files for a single test. Best practice is to move archived data as part of approving a report PR.
 
 > [!tip]
 > Be careful to avoid broken links during the transition from active to archive. Google URLs will remain functional when the folder is moved. However, MATLAB / Python scripts in GitHub may need to be updated.
