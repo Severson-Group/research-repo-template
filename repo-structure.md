@@ -65,8 +65,15 @@ research repo
 │   │   │   └── procurement/    (rarely needed, only when unique purchases made)
 │   │   ⋮
 │   │   └── equipment-x/
-│   ├── results/            (link resuts to plans, notebooks, firmware)
-│   │   └── README.md           (e.g., where lab notebook & data is stored, list relevant reports)
+│   ├── results/
+│   │   ├── README.md       (link results to plans and reports)
+│   │   ├── bp8/            (prototype specific result analysis and information)
+│   │   │   ├── README.md
+│   │   │   ├── jupyter/
+│   │   │   └── supporting-scripts/     (e.g., scripts/functions that are used to post-process data)
+│   │   ├── bp9/
+│   │   ├── rl-load/
+│   │   └── shared-supporting-scripts/  (e.g., shared scripts/functions used to post-process data for multiple prototypes)
 │   ├── jupyter/            (notebooks to run experiments)
 │   └── test-plans/         (detailed procedures, independent of prototype)
 │       ├── README.md
@@ -77,23 +84,25 @@ research repo
 │
 ├── modeling/       (archive of models developed in the research)
 │   ├── README.md
+│   ├── elev-control-lib/   (git submodule)
 │   ├── eMachPrivate/       (git submodule)
-│   │   └──eMach/ (git submodule)
-│   ├── model-type-1/       (often FEA, but could be analytic or other)
-│   │   ├── README.md       (contents and optional nomenclature table)
+│   │   └──eMach/           (git submodule)
+│   ├── analysis/           (of a design: motor, drive, filter, msc device)
+│   │   ├── model-1/   
+│   │   │   ├── README.md       (contents and optional nomenclature table)
+│   │   │   ⋮
+│   │   │   └── ...    
+│   │   ├── model-2/    
 │   │   ⋮
-│   │   └── ...
-│   ⋮
-│   ├── model-type-x/
-│   └── simulink/
-│       ├── README.md 
-│       ├── control_sim_1/      (often used to autogen code)
-│       │   ├── README.md
-│       │   ├── control_sim_1.slx
-│       │   ⋮
-│       ⋮
-│       ├── control_sim_x/
-│       └── elev-control-lib/   (git submodule)
+│   ├── control/            (model-based control development and simulation)
+│   ├── derivations/        (models supporting derivation of theory, i.e., sympy, matlab symbolic solvers)
+│   └── design/             (optimization studies, sizing scripts, etc)/
+│       ├── bhcpm/
+│       │   ├── separated-y4
+│       │   ├── separated-y5
+│       │   └── combined
+│       ├── bhpm
+│       └── bspm
 │
 ├── project-sponsor-documents/  (highly dependent on project)
 │   ├── README.md
