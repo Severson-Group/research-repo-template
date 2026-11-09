@@ -65,8 +65,15 @@ research repo
 │   │   │   └── procurement/    (rarely needed, only when unique purchases made)
 │   │   ⋮
 │   │   └── equipment-x/
-│   ├── results/            (link resuts to plans, notebooks, firmware)
-│   │   └── README.md           (e.g., where lab notebook & data is stored, list relevant reports)
+│   ├── results/
+│   │   ├── README.md       (link results to plans and reports)
+│   │   ├── bp8/            (prototype specific result analysis and information)
+│   │   │   ├── README.md
+│   │   │   ├── jupyter/
+│   │   │   └── supporting-scripts/     (e.g., scripts/functions that are used to post-process data)
+│   │   ├── bp9/
+│   │   ├── rl-load/
+│   │   └── shared-supporting-scripts/  (e.g., shared scripts/functions used to post-process data for multiple prototypes)
 │   ├── jupyter/            (notebooks to run experiments)
 │   └── test-plans/         (detailed procedures, independent of prototype)
 │       ├── README.md
