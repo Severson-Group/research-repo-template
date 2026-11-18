@@ -196,5 +196,7 @@ All directories should contain a README file landing page. Refer to the [researc
 ## Related Issues / PRs
 
 - [Issue #33: Document prototypes folder folder contents specification](https://github.com/Severson-Group/research-repo-template/issues/33)
-- [Issue #292: Brainstorm ideas on KB article on creating and releasing CAD designs](https://github.com/Severson-Group/KnowledgeBase/issues/292)
+- [Issue KB#292: Brainstorm ideas on KB article on creating and releasing CAD designs](https://github.com/Severson-Group/KnowledgeBase/issues/292)
 - [PR #42: Document overall research repo readme structure](https://github.com/Severson-Group/research-repo-template/issues/42)
+- [Issue #55: Update research repo structure for results and modeling](https://github.com/Severson-Group/research-repo-template/issues/55)
+
