@@ -74,7 +74,6 @@ research repo
 │   │   ├── bp9/
 │   │   ├── rl-load/
 │   │   └── shared-supporting-scripts/  (e.g., shared scripts/functions used to post-process data for multiple prototypes)
-│   ├── jupyter/            (notebooks to run experiments)
 │   └── test-plans/         (detailed procedures, independent of prototype)
 │       ├── README.md
 │       ├── plan-1.md
