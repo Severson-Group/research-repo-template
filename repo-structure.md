@@ -130,7 +130,7 @@ research repo
 │   │   │       └── *.step
 │   │   └── procurement/
 │   │       ├── README.md           (include table summarizing all orders)
-│   │       ├── bom.csv 
+│   │       ├── bom.csv             (optional, can instead be a table embedded in README.md)
 │   │       ├── major-component-1/  (rename based on component)
 │   │       │   ├── README.md       (summarize specification, results of quoting process, links to key files)
 │   │       │   ├── quote-1.pdf
